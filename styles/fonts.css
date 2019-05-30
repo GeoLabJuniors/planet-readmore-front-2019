@@ -1,0 +1,86 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "BPGExtraSquareMtavruli";
+  src: url("../fonts/bpgextrasquaremtavruli2009.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/bpgextrasquaremtavruli2009.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/bpgextrasquaremtavruli2009.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/bpgextrasquaremtavruli2009.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/bpgextrasquaremtavruli2009.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/bpgextrasquaremtavruli2009.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/bpgextrasquaremtavruli2009.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+
+@font-face {
+  font-family: "NotoSansTC-Black-Alphabetic";
+  src: url("../fonts/NotoSansTC-Black.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Black.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSansTC-Black.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Black.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Black.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Black.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+
+@font-face {
+  font-family: "NotoSansTC-Bold-Alphabetic";
+  src: url("../fonts/NotoSansTC-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Bold.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSansTC-Bold.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Bold.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+@font-face {
+  font-family: "NotoSansTC-Light-Alphabetic";
+  src: url("../fonts/NotoSansTC-Light.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Light.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Light.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Light.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+@font-face {
+  font-family: "NotoSansTC-Medium-Alphabetic";
+  src: url("../fonts/NotoSansTC-Medium.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Medium.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Medium.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+
+@font-face {
+  font-family: "NotoSansTC-Regular-Alphabetic";
+  src: url("../fonts/NotoSansTC-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSansTC-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Regular.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+
+@font-face {
+  font-family: "NotoSansTC-Thin-Alphabetic";
+  src: url("../fonts/NotoSansTC-Thin.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/NotoSansTC-Thin.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/NotoSansTC-Thin.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/NotoSansTC-Thin.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/NotoSansTC-Thin.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/NotoSansTC-Thin.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/NotoSansTC-Thin.woff2") format("woff2"); /* Modern Browsers */
+
+}
