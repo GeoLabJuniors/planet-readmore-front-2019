@@ -322,6 +322,7 @@ background-color: white;
     left: 17.5%;
     padding-bottom: 20px;
     box-shadow: 0 20px 100px lightgrey;
+      z-index: 999;
 }
 
 .aboutUs .aboutArticle h2 {
@@ -357,6 +358,7 @@ background-color: white;
     font-family: glah;
     font-size: 14px;display: block;
     margin-left: calc(50% - 40px);
+  
 
 }
 
@@ -410,6 +412,10 @@ background-color: white;
     color: black;
     font-family: otoSansTC-Light-Alphabetic;
 }
+
+.aboutUs .about2Article nav ul li a {
+    text-decoration: none;
+}
 /* Winners Styles End */
 /* h2*/
 .aboutUs .about2Article .view2 {
@@ -439,6 +445,9 @@ background-color: white;
     font-family: NotoSansTC-Light-Alphabetic;
 
 }
+
+
+
 
 .mainFoot .footFigure {
     min-width: 7%;
