@@ -194,6 +194,8 @@ body {
     margin-left: 1%;
 }
 
+
+
 /* H2 Books Styles Ends Here */
 /* Second Slider Start */
 .slick-next {
@@ -225,6 +227,21 @@ body {
     top: 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+   
+
+}
+
+.bookSlider::before {
+    content: "";
+    height: 95%;    
+    width: 95px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    right: left;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
    
 
 }
