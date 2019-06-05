@@ -169,6 +169,15 @@ body {
     color: #f4b04a;
     font-family: BPGExtraSquareMtavruli;
     font-size: 14px;
+	transition: all .4s;
+	box-sizing: border-box;
+}
+
+.overl a:hover {
+	background: #F6BF6A;
+	color: white;
+	border: none;
+	
 }
 
 /* White Box Styles Ends Here */
@@ -322,9 +331,20 @@ content: "";
     font-family: BPGExtraSquareMtavruli;
     font-size: 14px;display: block;
     margin-left: calc(50% - 55px);
+	transition: all .4s;
+	box-sizing: border-box;
    
     
 }
+
+.viewMore:hover {
+	background: #F6BF6A;
+	color: white;
+	border: none;
+	
+}
+
+
 /* Metis Naxva a End*/
 
 /* Chven Shesaxeb Styles start */
@@ -381,8 +401,17 @@ background-color: white;
     font-family: BPGExtraSquareMtavruli;
     font-size: 14px;display: block;
     margin-left: calc(50% - 55px);
+	box-sizing: border-box;
+	transition: all .4s;
   
 
+}
+
+.aboutUs .aboutArticle a:hover {
+	background: #F6BF6A;
+	color: white;
+	border: none;
+	
 }
 
 .aboutUs .about2Article {
