@@ -135,7 +135,7 @@ body {
     flex-direction: column;
     align-items: center;
     box-shadow: 0 30px 100px lightgrey;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
     
 }
 
@@ -164,10 +164,10 @@ body {
     border-radius: 5px;
     width: 110px;
     height: 28px;
-    line-height: 28px;
+    line-height: 30px;
     text-align: center;
     color: #f4b04a;
-    font-family: glah;
+    font-family: BPGExtraSquareMtavruli;
     font-size: 14px;
 }
 
@@ -179,18 +179,18 @@ body {
     font-size: 16px;
     width: 78%;
     margin-left: 8.5%;
-    margin-bottom: 20px;
     position: relative;
     color: #707070;
 }
 
 .books::after {
     content: "";
-    height: 2px;
+    height: 1px;
     width: 99%;
     position: absolute;
     background-color: #707070;
     top: 50%;
+	opacity: 0.4;
     margin-left: 1%;
 }
 
@@ -198,6 +198,13 @@ body {
 
 /* H2 Books Styles Ends Here */
 /* Second Slider Start */
+.slick-track, slick-list, .bookSlider {
+	 height: 450px !important;
+}
+.slick-track {
+    display: flex;
+    align-items: center;
+}
 .slick-next {
     right: 5% !important;
     z-index: 1000;
@@ -207,39 +214,38 @@ body {
 .slick-prev {
     left: 5% !important;
     z-index: 1000;
-    top: calc(40% - 15px);
+    top: calc(43% - 15px);
 }
 
 .bookSlider {
-    margin-bottom: 30px;
+   
     padding: 0 !important;
     position: relative;
 }
 
 .bookSlider::after {
-    content: "";
-    height: 95%;    
+content: "";
+    height: 78.5%;
     width: 94px;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.45);
     z-index: 999;
     right: 0;
-    top: 0;
+    top: 11%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-   
 
 }
 
 .bookSlider::before {
     content: "";
-    height: 95%;    
+    height: 78.5%;    
     width: 95px;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.45);
     z-index: 999;
     right: left;
-    top: 0;
+    top: 11%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
    
@@ -268,7 +274,7 @@ body {
 }
 
 .bookSlider article h2 {
-    font-size: 17px;
+    font-size: 14px;
    
     min-height: 40px;
     font-family: BPGExtraSquareMtavruli;
@@ -284,7 +290,7 @@ body {
     font-size: 12px;
     width: 99%;
     padding: 0 11px;
-    font-family: NotoSansTC-Medium-Alphabetic;
+    font-family: NotoSansTC-Light-Alphabetic;
     color: #707070;
 }
 
@@ -310,12 +316,12 @@ body {
     border-radius: 5px;
     width: 110px;
     height: 28px;
-    line-height: 28px;
+    line-height: 30px;
     text-align: center;
     color: #f4b04a;
-    font-family: glah;
+    font-family: BPGExtraSquareMtavruli;
     font-size: 14px;display: block;
-    margin-left: calc(50% - 40px);
+    margin-left: calc(50% - 55px);
    
     
 }
@@ -327,7 +333,7 @@ height: 550px;
 width: 100%;
 background-color: white;
     position: relative;
-    margin-top: 170px;
+    margin-top: 155px;
 }
 
 .aboutUs .aboutArticle {
@@ -369,12 +375,12 @@ background-color: white;
     border-radius: 5px;
     width: 110px;
     height: 28px;
-    line-height: 32px;
+    line-height: 30px;
     text-align: center;
     color: #f4b04a;
-    font-family: glah;
+    font-family: BPGExtraSquareMtavruli;
     font-size: 14px;display: block;
-    margin-left: calc(50% - 40px);
+    margin-left: calc(50% - 55px);
   
 
 }
@@ -398,9 +404,9 @@ background-color: white;
 
 /* Winners Styles Start */
 .aboutUs .about2Article nav {
-    width: 60%;
+        width: 80%;
     height: 40%;
-    margin-left: 21.2%;
+    margin: 0 auto;
     
 }
 
@@ -425,9 +431,12 @@ background-color: white;
 .aboutUs .about2Article nav ul li h5 {
     text-align: center;
     margin-top: 8px;
-    opacity: 70%;
-    color: black;
-    font-family: otoSansTC-Light-Alphabetic;
+    opacity: 0.8;
+    color: #f3a42c;
+    font-family: NotoSansTC-Bold-Alphabetic;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 15px;
 }
 
 .aboutUs .about2Article nav ul li a {
@@ -437,7 +446,7 @@ background-color: white;
 /* h2*/
 .aboutUs .about2Article .view2 {
     width: 110px;
-    margin-left: calc(50% - 40px);
+    margin-left: calc(50% - 55px);
     margin-top: 15px;
 }
 
@@ -452,14 +461,15 @@ background-color: white;
 .mainFoot ul {
     width: 15%;
     float: left;
-    margin-left: 138px;
+    margin-left: 25px;
     margin-top: 25px;
     list-style: none;
 }
 .mainFoot ul li {
     color: #FFFFFF;
-    opacity: 70%;
+    opacity: 0.5;
     font-family: NotoSansTC-Light-Alphabetic;
+	font-size: 14px;
 
 }
 
@@ -469,7 +479,7 @@ background-color: white;
 .mainFoot .footFigure {
     min-width: 7%;
     float: right;
-    margin-right: 138px;
+    margin-right: 25px;
     margin-top: 43px;
     text-align: right;
 }
