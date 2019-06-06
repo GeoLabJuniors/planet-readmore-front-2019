@@ -3,18 +3,12 @@
 				auto: true,
 				autoPlay: 5000,
 				speed: 1000,
+				tickerHover: true
 				 
 			});
         });
 
 
-$('.bxslider').bxSlider({
-  auto: true,
-  autoControls: true,
-  stopAutoOnClick: true,
-  pager: true,
-  slideWidth: 600
-});
 
  $('.bookSlider').slick({
             autoplay: true,
@@ -23,7 +17,6 @@ $('.bxslider').bxSlider({
             slidesToScroll: 1,
             centerMode: true, 
             variableWidth: true,
-            infinite: true,
-	        
+            infinite: true
          
                              });
