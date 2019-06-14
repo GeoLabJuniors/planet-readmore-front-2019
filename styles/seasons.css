@@ -1,0 +1,274 @@
+body {background: #f7f7f7;}
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+
+    align-items: center;
+    
+
+}
+
+/* Header Styles End */
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/* Search & LogIn  Styles End*/
+/* Header Styles End */
+
+/* Footer Styles Start */
+
+.mainSec {
+    width: 80%;
+    background: transparent;
+    margin: 30px auto;
+
+  
+}
+
+.mainSec .seasonsH2 {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.7;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.mainSec .seasonsH2::after {
+    content: "";
+    position: absolute;
+    width: 91%;
+    height: 1px;
+    background: black;
+    right: 0;
+    top: 50%;
+    opacity: 0.5;
+    
+}
+
+.mainSec .alliN {
+      display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: #FFFFFF;
+    border-radius: 4px;
+padding: 25px 0;
+    margin-top: 40px;
+}
+.mainSec .alliN header {
+    width: 17%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.mainSec .alliN header .month {
+ 
+  opacity: 0.64;
+  font-family: BPGExtraSquareMtavruli;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    position: relative;
+    
+
+}
+
+.mainSec .alliN header .month::after {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    border-radius: 4px;
+    background-color: #000000;
+    opacity: 0.44;
+}
+
+.mainSec .alliN header .year {
+   font-family: Arial;
+    opacity: 0.41;
+    margin-top: 35%;
+    font-size: 30px;
+}
+
+.mainSec img {
+    width: 32%;
+    max-height:  90%;
+    display: block;
+    padding-right: 30px;
+}
+.mainSec .artFoot h2 {
+  
+
+  font-family: BPGExtraSquareMtavruli;
+   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #000000;
+    display: block;
+}
+
+.mainSec .artFoot .p1 {
+    opacity: 0.52;
+    color: #000000;
+     font-family: BPGExtraSquareMtavruli;
+    margin-top: 3%;
+    display: block;
+}
+
+.mainSec .artFoot .p2 {
+   
+
+  opacity: 0.53;
+  font-family: NotoSansTC-Bold-Alphabetic;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    width: 90%;
+    margin-top: 3%;
+    opacity: 0.42;
+
+}
+
+.mainSec .artFoot hr {
+
+  width: 90%;
+  height: 1.3px;
+  opacity: 0.5;
+  border: solid 0.5px #707070;
+    float: left;
+    margin-top: 5%;
+
+}
+
+.viewMore {
+    
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+     text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;display: block;
+	transition: all .4s;
+	box-sizing: border-box;
+    float: left;
+    line-height: 28px;
+    margin-top: 2%;
+   
+    
+}
+
+.viewMore:hover {
+	background: #F6BF6A;
+	color: white;
+	border: none;
+	
+}
+
+
+/* Footer */
+
+.mainFoot {
+    width: 100%;
+    height: 100px;
+    background-color: #2E2635;
+    
+}
+.mainFoot ul {
+    width: 15%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    list-style: none;
+}
+.mainFoot ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: NotoSansTC-Light-Alphabetic;
+	font-size: 14px;
+
+}
+
+
+
+
+.mainFoot .footFigure {
+    min-width: 7%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 43px;
+    text-align: right;
+}
+
+/* Footer Styles End */
