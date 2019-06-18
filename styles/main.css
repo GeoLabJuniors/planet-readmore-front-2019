@@ -24,6 +24,84 @@ body {
 }
 
 /* Header Styles End */
+
+/* Search */
+.mainHeader .Search {
+    top: -200%;
+    position: relative;
+    border-radius: 5px;
+/*
+    -webkit-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
+*/
+}
+
+.mainHeader .openSearch {
+    position: absolute;
+    width: 65%;
+    top:0;
+    right: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.mainHeader .Search .searchlay {
+    width: 85%;
+    height: 25px;
+    position: relative;
+    margin-top: 2%;
+}
+
+.mainHeader .Search .searchlay input[type="search"] {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
+.mainHeader .Search .butsub {
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+.mainHeader .Search .butsub img,.mainHeader .Search .butclo img  {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader .Search .butclo {
+    position: absolute;
+    left: 0;
+     background: none;
+    outline: none;
+    border: none;
+    top: -10%;
+     height: 30px;
+    width: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+    
+}
+
+/* Search Styles End
 /* Logo Styles Start*/
 .mainHeader h1 {
     background-color: white;
