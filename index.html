@@ -7,12 +7,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>READMORE</title>
-    <link rel="icon" href="images/socials/logo.ico">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/slick-theme.css">
     <link rel="stylesheet" href="styles/slick.css">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/search.js"></script>
 
 </head>
 
@@ -30,9 +31,16 @@
             </ul>
         </nav>
         <figure>
-            <a href="#"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
+            <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
             <a href="#"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
         </figure>
+        <form action="#" method="get" class="Search" id="forSer">
+           <div class="searchlay">
+             <input type="search"  name="search">
+<button type="submit" class="butsub"><img src="../images/socials/search_png.png" alt=""></button>
+      <button type="close" class="butclo"><img onclick="closeSearch()" src="../images/socials/close.png" alt=""></button>
+       </div>
+        </form>
     </header>
     <!-- Header Ends Here ^^ -->
 
