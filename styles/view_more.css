@@ -536,8 +536,9 @@ margin: 0px auto 50px auto;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    
+    position: relative;
 }
+
 
 .thirdSection .winners:nth-child(2) {
  
@@ -545,7 +546,23 @@ margin: 0px auto 50px auto;
 
 }
 
-
+.thirdSection .winners:nth-child(2) .big_img:nth-child(1) {
+    width: 150px;
+}
+.thirdSection .winners .position {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+  font-family: BPGExtraSquareMtavruli;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f3a42c;
+}
 
 
 .thirdSection .winners .winner_name{
