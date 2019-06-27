@@ -448,7 +448,7 @@ content: "";
     min-height: 40px;
     font-family: BPGExtraSquareMtavruli;
     width: 95%;
-    margin: 0 auto;
+
     text-align: left;
     padding: 5px 11px;
     word-wrap: break-word;
@@ -457,7 +457,6 @@ content: "";
 
 .bookSlider article h5 {
     font-size: 12px;
-    width: 65%;
     padding: 0 11px;
     font-family: NotoSansTC-Light-Alphabetic;
     color: #707070;
@@ -466,6 +465,18 @@ content: "";
 
 .bookSlider article a {
     text-decoration: none;
+}
+
+.bookSlider article .turi {
+  float: right;
+  margin-right: 2%;
+  font-family: SegoeUI;
+  font-weight: 100;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f3a42c;
+
 }
 .slick-list {
     padding: 0 !important;
