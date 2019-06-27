@@ -1,0 +1,686 @@
+body {background: #f7f7f7;}
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    position: relative;
+    align-items: center;
+    padding-left: 100px;
+    
+
+}/* Search */
+.mainHeader .Search {
+    top: -200%;
+    position: relative;
+    border-radius: 5px;
+/*
+    -webkit-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
+*/
+}
+
+.mainHeader .openSearch {
+    position: absolute;
+    width: 65%;
+    top:0;
+    right: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.mainHeader .Search .searchlay {
+    width: 85%;
+    height: 25px;
+    position: relative;
+   
+}
+
+.mainHeader .Search .searchlay input[type="search"] {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+
+.mainHeader .Search .butsub {
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+.mainHeader .Search .butsub img,.mainHeader .Search .butclo img  {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader .Search .butclo {
+    position: absolute;
+    left: 0;
+     background: none;
+    outline: none;
+    border: none;
+    top: -10%;
+     height: 30px;
+    width: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+    
+}
+
+/* Search Styles End
+
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+    
+
+}
+
+/* Search & LogIn  Styles End*/
+/* Header Styles End */
+
+
+
+/* Main Contetnt Stylesl Start */
+
+.firstSec {
+    width: 78%;
+    margin: 15px auto;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.firstSec .imgTxt {
+    width: 48%;
+}
+.firstSec .imgTxt img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.firstSec .imgTxt .date_rul {
+    width: 48%;
+    display: inline-block;
+}
+
+.firstSec .imgTxt .date_rul .date {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.64;
+    margin-top: 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+.firstSec .imgTxt .date_rul .date::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    height: 1px;
+    width: 14%;
+   
+  border-radius: 4px;
+  box-shadow: 0 5px 17.5px 0 rgba(0, 0, 0, 0.16);
+  background-color: #000000;
+}
+    
+.firstSec .imgTxt .date_rul .year {
+    margin-top: 10%;
+  opacity: 0.41;
+/*  font-family: Arial Black;*/
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.firstSec .imgTxt .rul {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.viewMore {
+    
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;display: block;
+    margin-left: calc(50% - 55px);
+	transition: all .4s;
+	box-sizing: border-box;
+   
+    
+}
+
+.viewMore:hover {
+	background: #F6BF6A;
+	color: white;
+	border: none;
+	
+}
+
+.firstSec .text {
+    width: 49%;
+    position: relative;
+}
+
+
+.firstSec .text h2 {
+ 
+  font-family: BPGExtraSquareMtavruli;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+
+}
+
+.firstSec .text .datxt {
+
+  opacity: 0.29;
+  font-family: BPGExtraSquareMtavruli;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    margin: 25px auto;
+
+}
+
+.firstSec .text .grandTxt {
+
+  opacity: 0.5;
+  font-family: NotoSansTC;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000000;
+    position: relative;
+
+}
+.firstSec .text .grandTxt .continue {
+    display: none;
+}
+#flip,#flip2,#flip3,#flip4 {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 105%;
+    right: 49%;
+}
+/* H2 Books Styles Starts Here */
+.books {
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 16px;
+    width: 96%;
+   margin-top: 50px;
+     margin-bottom: 50px;
+    position: relative;
+    color: #707070;
+}
+
+.books::after {
+    content: "";
+    height: 1px;
+    width: 97.3%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+	opacity: 0.4;
+    margin-left: 1%;
+}
+
+
+
+/* H2 Books Styles Ends Here */
+
+.secSection nav {
+    width: 100%;
+    text-align: center;
+}
+
+.secSection nav a {
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+	transition: all .4s;
+	box-sizing: content-box;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 4%;
+}
+
+.secSection nav a:hover {
+    background: #F6BF6A;
+	color: white;
+	border: none;
+	
+
+}
+/*
+BOok Sliders Starts Here 
+*/
+
+/* Second Slider Start */
+.bookSlider .slick-track,.bookSlider slick-list, .bookSlider {
+	 height: 450px;
+}
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+.bookSlider .slick-next {
+    right: 5% !important;
+    z-index: 1000;
+    top: calc(47% - 15px);
+}
+
+.bookSlider .slick-prev {
+    left: 5% !important;
+    z-index: 1000;
+    top: calc(50% - 15px);
+}
+
+.bookSlider {
+   
+    padding: 0 !important;
+    position: relative;
+
+}
+
+.bookSlider::after {
+content: "";
+    height: 78%;
+    width: 140px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    right: 0;
+       bottom: 11%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.bookSlider::before {
+    content: "";
+    height: 78%;    
+    width: 140px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    right: left;
+       bottom: 11%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
+}
+
+
+
+.bookSlider article {
+    height: 330px !important;
+    width: 208px !important;
+    background-color: white;
+    margin: auto 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.bookSlider article:hover {
+    box-shadow: 0px 0px 50px grey;
+}
+
+.bookSlider article img {
+    width: 100% !important;
+    height: 265px !important;
+}
+
+.bookSlider article h2 {
+    font-size: 14px;
+   
+    min-height: 40px;
+    font-family: BPGExtraSquareMtavruli;
+    width: 95%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px 11px;
+    word-wrap: break-word;
+    color: black;
+}
+
+.bookSlider article h5 {
+    font-size: 12px;
+    width: 65%;
+    padding: 0 11px;
+    font-family: NotoSansTC-Light-Alphabetic;
+    color: #707070;
+    float: left;
+}
+
+.bookSlider article a {
+    text-decoration: none;
+}
+.slick-list {
+    padding: 0 !important;
+}
+
+.lastSlider .slick-slider .slick-track,.lastSlider .slick-slider .slick-list {
+    height: 350px;
+}
+
+/* Books Slider End */
+
+/* ჰ2 გამარჯვებულის */
+.winner {
+width: 78%;
+margin: 0px auto 50px auto;
+  opacity: 0.48;
+  font-family: BPGExtraSquareMtavruli;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    position: relative;
+}
+
+.winner::after {
+    content: "";
+    height: 1px;
+    width: 87%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+	opacity: 0.4;
+    margin-left: 1%;
+}
+
+/* ჰ2 გამარჯვებულის  End*/
+
+/* გამარჯვებულების სამეული */
+.thirdSection {
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+    background: #f7f7f7;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+}
+
+.thirdSection .winners {
+   
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.thirdSection .winners:nth-child(2) {
+ 
+   width: 30%;
+
+}
+
+
+
+
+.thirdSection .winners .winner_name{
+
+  font-family: BPGExtraSquareMtavruli;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+ width: 100%;
+    text-align: center;
+  color: #000000;
+}
+
+.thirdSection .winners .grandTxt {
+    position: relative;
+    text-align: center;
+    font-family: NotoSansTC-Thin-Alphabetic;
+   opacity: 0.5;
+  font-family: NotoSansTC;
+    font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+    color: #000000;
+    font-size: 14px;
+
+}
+
+.thirdSection .winners .grandTxt::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 64%, #f7f7f7);
+    width: 100%;
+    left: 0;
+}
+.thirdSection .winners .grandTxt #flip2 {
+        left: calc(50% - 16px);
+}.thirdSection .winners .grandTxt #flip3 {
+        left: calc(50% - 16px);
+}.thirdSection .winners .grandTxt #flip4 {
+        left: calc(50% - 16px);
+}
+.thirdSection .winners .grandTxt .winners_text {
+    display: none;
+}.thirdSection .winners .grandTxt .winners_text3 {
+    display: none;
+}.thirdSection .winners .grandTxt .winners_text4 {
+    display: none;
+}
+
+
+/* გამარჯვებულების სამეულის დასასრული */
+.gallery {
+width: 78%;
+margin: 50px auto 0 auto;
+  opacity: 0.48;
+  font-family: BPGExtraSquareMtavruli;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    position: relative;
+}
+
+.gallery::after {
+    content: "";
+    height: 1px;
+    width: 92%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+	opacity: 0.4;
+    margin-left: 1%;
+}
+
+.lastSlider {
+    width: 73%;
+    margin: 50px auto 50px auto;
+    height: auto;
+}
+.lastSlider .slick-next {
+    right: -5%;
+    top: 50%;
+}
+
+.lastSlider .slick-prev {
+    left: -5%;
+    top: 43%;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+
+
+/* Footer Styles Start */
+
+.mainFoot {
+    width: 100%;
+    height: 100px;
+    background-color: #2E2635;
+    
+}
+.mainFoot ul {
+    width: 15%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    list-style: none;
+}
+.mainFoot ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: NotoSansTC-Light-Alphabetic;
+	font-size: 14px;
+
+}
+
+
+
+
+.mainFoot .footFigure {
+    min-width: 7%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 43px;
+    text-align: right;
+}
+
+/* Footer Styles End */
