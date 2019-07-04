@@ -296,7 +296,7 @@ body {background: #f7f7f7;}
 }
 
 .rightSec .h2books {
-    width: 100%;
+    width: 99%;
      opacity: 0.7;
   font-family: BPGExtraSquareMtavruli;
   font-size: 17px;
@@ -334,8 +334,9 @@ body {background: #f7f7f7;}
     
 }
 .rightSec .forBooks .book_rating {
-    width: 30%;
-    max-width: 100%;
+    width: 239px;
+    max-width: 239px;
+    margin-right: 1%;
     background: #FFFFFF;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -348,10 +349,18 @@ body {background: #f7f7f7;}
 .rightSec .forBooks .book_rating .big_fig {
     position: relative;
    width: 100%;
-    max-height: 325px;
+    height: 221.6px;
+    max-height: 221.6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
+
 .rightSec .forBooks .book_rating .big_fig .fitted {
     width: 100%;
+     height: 100%;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .rightSec .forBooks .book_rating .big_fig .small_fig {
     position: absolute;bottom: 3%;left: 2%;
