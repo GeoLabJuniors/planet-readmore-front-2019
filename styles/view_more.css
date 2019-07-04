@@ -161,7 +161,7 @@ body {background: #f7f7f7;}
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 43px;
 }
 
 .firstSec .imgTxt {
@@ -221,19 +221,20 @@ body {background: #f7f7f7;}
 
 .viewMore {
 
-    text-decoration: none;
+        text-decoration: none;
     border: solid 0.5px #707070;
     border-radius: 5px;
-    width: 110px;
-    height: 28px;
-    line-height: 28px;
+    width: 96px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     color: #f4b04a;
     font-family: BPGExtraSquareMtavruli;
-    font-size: 14px;display: block;
-    margin-left: calc(50% - 55px);
-	transition: all .4s;
-	box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+    margin-left: calc(50% - 48px);
+    transition: all .4s;
+    box-sizing: border-box;
 
 
 }
@@ -291,13 +292,14 @@ body {background: #f7f7f7;}
   letter-spacing: 0px;
   text-align: left;
   color: #000000;
-    position: relative;
-    height: 385px;
-        overflow: hidden;
-        -webkit-transition: height 1s linear;
-            -moz-transition: height 1s linear;
-            -o-transition: height 1s linear;
-            transition: height 1s linear;
+  position: relative;
+  height: 385px;
+  overflow: hidden;
+  -webkit-transition: height 1s linear;
+  -moz-transition: height 1s linear;
+  -o-transition: height 1s linear;
+  transition: height 1s linear;
+
 }
 
 
@@ -341,20 +343,10 @@ body {background: #f7f7f7;}
     bottom: 30px;
     right: 46%;
       cursor: pointer;
+    z-index: 999;
 }
 
 
-
-
-#flip2,#flip3,#flip4 {
-    background: none;
-    border: none;
-    outline: none;
-    position: absolute;
-    top: 101%;
-    right: 49%;
-    cursor: pointer;
-}
 /* H2 Books Styles Starts Here */
 .books {
     font-family: BPGExtraSquareMtavruli;
@@ -474,7 +466,7 @@ content: "";
 
 
 .bookSlider article {
-    height: 330px !important;
+    height: 360px !important;
     width: 208px !important;
     background-color: white;
     margin: auto 10px;
@@ -500,7 +492,7 @@ content: "";
     width: 95%;
 
     text-align: left;
-    padding: 5px 11px;
+    padding: 10px 11px;
     word-wrap: break-word;
     color: black;
 }
@@ -511,6 +503,7 @@ content: "";
     font-family: NotoSansTC-Light-Alphabetic;
     color: #707070;
     float: left;
+    margin-top: 15px;
 }
 
 .bookSlider article a {
@@ -526,6 +519,7 @@ content: "";
   letter-spacing: normal;
   text-align: left;
   color: #f3a42c;
+    margin-top: 7%;
 
 }
 .slick-list {
@@ -604,6 +598,7 @@ margin: 0px auto 50px auto;
 .thirdSection .winners:nth-child(2) {
 
    width: 30%;
+    padding-bottom: 10px;
 
 }
 
@@ -642,7 +637,7 @@ margin: 0px auto 50px auto;
 .thirdSection .winners .grandTxt {
     position: relative;
     text-align: center;
-    font-family: NotoSansTC-Thin-Alphabetic;
+    font-family: NotoSansTC-Light-Alphabetic;
    opacity: 0.5;
   font-family: NotoSansTC;
     font-weight: 300;
@@ -651,9 +646,30 @@ margin: 0px auto 50px auto;
   line-height: 1.88;
     color: #000000;
     font-size: 14px;
+    height: 185px;
+    overflow: hidden;
+    -webkit-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
 
 
 }
+.thirdSection .winners .grandTxt.open {
+  height: 600px;
+}
+
+.thirdSection .winners .grandTxt.overflow {
+ overflow: auto;
+}
+
+.thirdSection .winners .grandTxt.open::after{
+  height: 0px;
+}
+
+.flip-icon.open {
+  transform: rotate(180deg);
+}
+
 
 .thirdSection .winners .grandTxt::after {
     content: "";
@@ -664,26 +680,7 @@ margin: 0px auto 50px auto;
     width: 100%;
     left: 0;
 }
-.thirdSection .winners .grandTxt #flip2 {
-        left: calc(50% - 16px);
-}
-.thirdSection .winners .grandTxt #flip3 {
-        left: calc(50% - 16px);
-}
 
-
-
-
-.thirdSection .winners .grandTxt #flip4 {
-        left: calc(50% - 16px);
-}
-.thirdSection .winners .grandTxt .winners_text {
-    display: none;
-}.thirdSection .winners .grandTxt .winners_text3 {
-    display: none;
-}.thirdSection .winners .grandTxt .winners_text4 {
-    display: none;
-}
 
 
 /* გამარჯვებულების სამეულის დასასრული */
