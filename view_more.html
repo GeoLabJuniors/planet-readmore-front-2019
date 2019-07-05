@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/slick.css">
     <link rel="stylesheet" href="styles/view_more.css">
     <script src="scripts/search.js"></script>
+    <script src="scripts/openModal.js"></script>
 
 </head>
 
@@ -239,15 +240,18 @@
 <h2 class="gallery">გალერეა</h2>
 <!-- Footer Starts Here -->
 
-   <section class="lastSlider">
-       <img src="images/view_more/1.png" alt="" class="height">
-       <img src="images/view_more/2.png" alt="" class="height">
-       <img src="images/view_more/3.png" alt="" class="height">
-       <img src="images/view_more/1.png" alt="" class="height">
-       <img src="images/view_more/2.png" alt="" class="height">
-       <img src="images/view_more/3.png" alt="" class="height">
+   <section class="lastSlider" id="lastSlider">
+       <img src="images/view_more/1.png" alt="" class="height" onclick="openModal()">
+       <img src="images/view_more/2.png" alt="" class="height" onclick="openModal()">
+       <img src="images/view_more/3.png" alt="" class="height" onclick="openModal()">
+       <img src="images/view_more/1.png" alt="" class="height" onclick="openModal()">
+       <img src="images/view_more/2.png" alt="" class="height" onclick="openModal()">
+       <img src="images/view_more/3.png" alt="" class="height" onclick="openModal()">
        
    </section>
+   <section id="modalSlider">    
+
+</section>
     <footer class="mainFoot">
         <ul>
             <li>www.readmore@gmail.com</li>
