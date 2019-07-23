@@ -361,6 +361,7 @@ body {background: #f7f7f7;}
      height: 100%;
         border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 .rightSec .forBooks .book_rating .big_fig .small_fig {
     position: absolute;bottom: 3%;left: 2%;

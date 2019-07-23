@@ -172,6 +172,7 @@ body {background: #f7f7f7;overflow-x: hidden;}
     border-radius: 10px;
     max-width: 100%;
     max-height: 375px;
+    object-fit: cover;
 
 }
 
@@ -337,18 +338,22 @@ body {background: #f7f7f7;overflow-x: hidden;}
     display: none;
 }
 
-#flip {
+.flip {
     background: none;
     border: none;
     outline: none;
     position: absolute;
     bottom: 30px;
-    right: 46%;
+    left: 50%;
+    transform: translate(-50%);
       cursor: pointer;
     z-index: 999;
 }
 
-
+.flip img {
+        object-fit: cover;
+        width: 32px;
+}
 /* H2 Books Styles Starts Here */
 .books {
     font-family: BPGExtraSquareMtavruli;
@@ -473,7 +478,7 @@ content: "";
     background-color: white;
     margin: auto 10px;
     border-radius: 10px;
-
+overflow: hidden;
 
 }
 
@@ -482,7 +487,7 @@ content: "";
 }
 
 .bookSlider article img {
-    width: 100% !important;
+    object-fit: cover;
     height: 265px !important;
 }
 
@@ -534,6 +539,8 @@ content: "";
 
 .lastSlider img {
     height: 207px;
+    width: 350px;
+    object-fit: cover;
 }
 
 /* Books Slider End */
@@ -595,9 +602,10 @@ margin: 0px auto 50px auto;
     width: 25%;
     background-color: white;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     position: relative;
+    border-radius: 10px;
 }
 
 .thirdSection .winners .for_image {
@@ -608,6 +616,7 @@ margin: 0px auto 50px auto;
     height: 126px;
     width: 126px;
     margin-bottom: 10px;
+     object-fit: cover;
 }
 .thirdSection .winners:nth-child(2) {
 
@@ -619,12 +628,15 @@ margin: 0px auto 50px auto;
 .thirdSection .winners:nth-child(2) .big_img:nth-child(1) {
     width: 150px;
     height: 150px;
+    object-fit: cover;
         
 }
+
+
 .thirdSection .winners .position {
     position: absolute;
     top: 10px;
-    left: 7px;
+    left: 13px;
   font-family: BPGExtraSquareMtavruli;
   font-size: 14px;
   font-weight: normal;
@@ -653,8 +665,7 @@ margin: 0px auto 50px auto;
 
 .thirdSection .winners .grandTxt {
     position: relative;
-    text-align: center;
-    font-family: NotoSansTC-Light-Alphabetic;
+    text-align: left;
    opacity: 0.5;
   font-family: NotoSansTC;
     font-weight: 300;
@@ -743,7 +754,9 @@ margin: 50px auto 0 auto;
 }
 
 .slick-slide {
-    height: auto;
+      height: 207px;
+    width: 350px;
+    object-fit: cover;
 }
 
 /* Modal Slider */
