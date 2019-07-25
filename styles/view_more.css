@@ -540,6 +540,7 @@ overflow: hidden;
 .lastSlider img {
     height: 207px;
     width: 350px;
+    max-width: 100%;
     object-fit: cover;
 }
 
