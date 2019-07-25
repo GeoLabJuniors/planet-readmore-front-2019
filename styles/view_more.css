@@ -696,7 +696,7 @@ margin: 0px auto 50px auto;
 }
 
 .flip-icon.open {
-  transform: rotate(180deg);
+  transform: rotate(180deg) translate(50%);
 }
 
 
