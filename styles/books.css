@@ -1,4 +1,4 @@
-body {background: #f7f7f7;}
+body {background: #f7f7f7;overflow-x: hidden;}
 /* Header Styles Start */
 .mainHeader {
     height: 100px;
