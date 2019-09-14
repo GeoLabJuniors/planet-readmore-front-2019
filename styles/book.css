@@ -1,0 +1,357 @@
+body {
+    background: #f7f7f7;
+    overflow-x: hidden;
+}
+
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.mainHeader .headerWrapper {
+    height: 100%;
+    width: 80%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+/* Search */
+.mainHeader .Search {
+    top: -200%;
+    position: relative;
+    border-radius: 5px;
+    /*
+    -webkit-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
+*/
+}
+
+.mainHeader .openSearch {
+    position: absolute;
+    width: 65%;
+    top: 0;
+    right: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader .Search .searchlay {
+    width: 85%;
+    height: 25px;
+    position: relative;
+
+}
+
+.mainHeader .Search .searchlay input[type="search"] {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 5px 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.mainHeader .Search .butsub {
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+.mainHeader .Search .butsub img,
+.mainHeader .Search .butclo img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader .Search .butclo {
+    position: absolute;
+    left: 0;
+    background: none;
+    outline: none;
+    border: none;
+    top: -10%;
+    height: 30px;
+    width: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+
+}
+
+/* Search Styles End
+
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+    margin-left: 4%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+
+
+}
+
+
+/*mainSection starts here*/
+
+.mainSection {
+    width: 79%;
+    margin: 30px auto;
+}
+
+.mainSection .firstSection {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -25px 15px 40px rgba(234, 234, 234, 0.98),
+        -25px 15px 40px rgb(224, 210, 210);
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .leftSide {
+    width: 40%;
+    height: 480px;
+    float: left;
+
+}
+
+.mainSection .firstSection .leftSide .bookPic {
+    width: 100%;
+    height: 383px;
+    max-height: 383px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.mainSection .firstSection .leftSide hgroup {
+
+    float: left;
+    position: relative;
+
+}
+
+.mainSection .firstSection .leftSide hgroup::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 54px;
+    height: 1px;
+    background: #F3A42C;
+    opacity: 0.7;
+}
+
+
+.mainSection .firstSection .leftSide hgroup h2 {
+    padding: 5px 0;
+    box-sizing: content-box;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 25px;
+    color: #f3a42c;
+
+}
+
+.mainSection .firstSection .leftSide hgroup h2 span {
+    font-size: 14px;
+    opacity: 0.64;
+}
+
+.mainSection .firstSection .leftSide section {
+    float: right;
+}
+
+.mainSection .firstSection .leftSide section h5 {
+    color: #F3A42C;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    padding-top: 11px;
+
+}
+
+.mainSection .firstSection .leftSide section figure {
+    padding-top: 15px;
+}
+
+.mainSection .firstSection .leftSide section figure img {
+    float: right;
+    margin-left: 2px;
+}
+
+.mainSection .firstSection .rightSide {
+    width: 50%;
+    float: right;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .rightSide {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mainSection .firstSection .rightSide h2 {
+    margin-bottom: 40px;
+    font-family: BPGExtraSquareMtavruli;
+
+}
+
+.mainSection .firstSection .rightSide h2:nth-child(2) {
+    color: #F3A42C;
+
+}
+
+.mainSection .firstSection .rightSide .longText {
+    font-family: BPGExtraSquare;
+    opacity: 0.5;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: relative;
+    max-height: 275px;
+    overflow: hidden;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .rightSide .longText::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 64%, #f7f7f7);
+    height: 100px;
+}
+
+.mainSection .firstSection .rightSide .stretcher {
+    border: none;
+    background: none;
+    outline: none;
+    width: 30px;
+    cursor: pointer;
+    align-self: center;
+    position: absolute;
+    bottom: -85px;
+
+
+}
+
+.mainSection .firstSection .rightSide .stretcher:hover ~ p::after {
+    opacity: 0;
+}
+
+
+
+/* Footer */
+
+.mainFoot {
+    width: 100%;
+    height: 90px;
+    background-color: #2E2635;
+    float: left;
+    margin-top: 100px;
+}
+
+.mainFoot ul {
+    width: 15%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.mainFoot ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: NotoSansTC-Light-Alphabetic;
+    font-size: 14px;
+
+}
+
+.mainFoot .footFigure {
+    min-width: 7%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 35px;
+    text-align: right;
+}
