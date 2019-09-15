@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 body {
     background: #f7f7f7;
     overflow-x: hidden;
@@ -168,7 +166,6 @@ body {
 
 
 }
->>>>>>> a004f2bcb2f56e206dc4ac8822bee22358bd4fd6
 
 
 /*mainSection starts here*/
@@ -324,8 +321,6 @@ body {
     opacity: 0;
 }
 
-
-<<<<<<< HEAD
 /*Rating section styles start */
 .mainSection .forRate {
     display: flex;
@@ -358,7 +353,6 @@ body {
 /* Footer */
 
 
-=======
 
 /* Footer */
 
@@ -393,4 +387,3 @@ body {
     margin-top: 35px;
     text-align: right;
 }
->>>>>>> a004f2bcb2f56e206dc4ac8822bee22358bd4fd6
