@@ -1,4 +1,7 @@
-body {background: #f7f7f7;}
+body {
+    background: #f7f7f7;
+}
+
 /* Header Styles Start */
 .mainHeader {
     height: 100px;
@@ -11,14 +14,16 @@ body {background: #f7f7f7;}
     position: relative;
     align-items: center;
     padding-left: 100px;
-    
 
-}/* Search */
+
+}
+
+/* Search */
 .mainHeader .Search {
     top: -200%;
     position: relative;
     border-radius: 5px;
-/*
+    /*
     -webkit-transition: all .5s;
     -o-transition:  all .5s;
     transition:  all .5s;
@@ -28,17 +33,18 @@ body {background: #f7f7f7;}
 .mainHeader .openSearch {
     position: absolute;
     width: 65%;
-    top:0;
+    top: 0;
     right: 12%;
     height: 100px;
     display: flex;
     align-items: center;
 }
+
 .mainHeader .Search .searchlay {
     width: 85%;
     height: 25px;
     position: relative;
-   
+
 }
 
 .mainHeader .Search .searchlay input[type="search"] {
@@ -52,7 +58,7 @@ body {background: #f7f7f7;}
     border-radius: 5px;
     border: none;
     outline: none;
-    
+
 }
 
 .mainHeader .Search .butsub {
@@ -69,7 +75,8 @@ body {background: #f7f7f7;}
     transition: all 0s;
 }
 
-.mainHeader .Search .butsub img,.mainHeader .Search .butclo img  {
+.mainHeader .Search .butsub img,
+.mainHeader .Search .butclo img {
     width: 100%;
     height: 100%;
 }
@@ -77,16 +84,16 @@ body {background: #f7f7f7;}
 .mainHeader .Search .butclo {
     position: absolute;
     left: 0;
-     background: none;
+    background: none;
     outline: none;
     border: none;
     top: -10%;
-     height: 30px;
+    height: 30px;
     width: 40px;
     z-index: 999;
     cursor: pointer;
     transition: all 0s;
-    
+
 }
 
 /* Search Styles End
@@ -141,7 +148,7 @@ body {background: #f7f7f7;}
     flex-direction: row;
     justify-content: space-around;
     margin-left: 5%;
-    
+
 
 }
 
@@ -155,7 +162,7 @@ body {background: #f7f7f7;}
     background: transparent;
     margin: 30px auto;
 
-  
+
 }
 
 .mainSec .seasonsH2 {
@@ -176,11 +183,11 @@ body {background: #f7f7f7;}
     right: 0;
     top: 50%;
     opacity: 0.5;
-    
+
 }
 
 .mainSec .alliN {
-      display: flex;
+    display: flex;
     flex-direction: row;
     -webkit-flex-wrap: nowrap;
     -moz-flex-wrap: nowrap;
@@ -189,34 +196,36 @@ body {background: #f7f7f7;}
     flex-wrap: nowrap;
     background: #FFFFFF;
     border-radius: 4px;
-padding: 25px 0;
+    padding: 25px 0;
     margin-top: 40px;
     -webkit-transition: box-shadow .5s;
-    -o-transition:  box-shadow .5s;
-    transition:  box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s;
 }
 
 .mainSec .alliN:hover {
     box-shadow: 0 0 40px lightgrey;
 }
+
 .mainSec .alliN header {
     width: 17%;
     margin-top: 2%;
     margin-left: 3%;
 }
+
 .mainSec .alliN header .month {
- 
-  opacity: 0.64;
-  font-family: BPGExtraSquareMtavruli;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
+
+    opacity: 0.64;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
     position: relative;
-    
+
 
 }
 
@@ -234,7 +243,7 @@ padding: 25px 0;
 }
 
 .mainSec .alliN header .year {
-   font-family: Arial;
+    font-family: Arial;
     opacity: 0.41;
     margin-top: 35%;
     font-size: 30px;
@@ -242,48 +251,49 @@ padding: 25px 0;
 
 .mainSec img {
     width: 32%;
-    max-height:  90%;
+    max-height: 90%;
     display: block;
     margin-right: 30px;
     border-radius: 10px;
     width: 380px;
     height: 225px;
-        max-width: 100%;
+    max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 }
-.mainSec .artFoot h2 {
-  
 
-  font-family: BPGExtraSquareMtavruli;
-   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #000000;
+.mainSec .artFoot h2 {
+
+
+    font-family: BPGExtraSquareMtavruli;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
     display: block;
 }
 
 .mainSec .artFoot .p1 {
     opacity: 0.52;
     color: #000000;
-     font-family: BPGExtraSquareMtavruli;
+    font-family: BPGExtraSquareMtavruli;
     margin-top: 3%;
     display: block;
 }
 
 .mainSec .artFoot .p2 {
-   
 
-  opacity: 0.53;
-  font-family: NotoSansTC-Bold-Alphabetic;
-  font-size: 22px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
+
+    opacity: 0.53;
+    font-family: NotoSansTC-Bold-Alphabetic;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
     width: 90%;
     margin-top: 3%;
     opacity: 0.42;
@@ -292,72 +302,41 @@ padding: 25px 0;
 
 .mainSec .artFoot hr {
 
-  width: 90%;
-  height: 1.3px;
-  opacity: 0.5;
-  border: solid 0.5px #707070;
+    width: 90%;
+    height: 1.3px;
+    opacity: 0.5;
+    border: solid 0.5px #707070;
     float: left;
     margin-top: 5%;
 
 }
 
 .viewMore {
-    
+
     text-decoration: none;
     border: solid 0.5px #707070;
     border-radius: 5px;
     width: 110px;
     height: 28px;
-     text-align: center;
+    text-align: center;
     color: #f4b04a;
     font-family: BPGExtraSquareMtavruli;
-    font-size: 14px;display: block;
-	transition: all .4s;
-	box-sizing: border-box;
+    font-size: 14px;
+    display: block;
+    transition: all .4s;
+    box-sizing: border-box;
     float: left;
     line-height: 28px;
     margin-top: 2%;
-   
-    
+
+
 }
 
 .viewMore:hover {
-	background: #F6BF6A;
-	color: white;
-	border: none;
-	
+    background: #F6BF6A;
+    color: white;
+    border: none;
+
 }
+
 /* Footer Styles Start */
-
-/* Footer */
-
-.mainFoot {
-    width: 100%;
-    height: 90px;
-    background-color: #2E2635;
-    
-}
-.mainFoot ul {
-    width: 15%;
-    float: left;
-    margin-left: 25px;
-    margin-top: 30px;
-    list-style: none;
-}
-.mainFoot ul li {
-    color: #FFFFFF;
-    opacity: 0.5;
-    font-family: NotoSansTC-Light-Alphabetic;
-	font-size: 14px;
-
-}
-
-.mainFoot .footFigure {
-    min-width: 7%;
-    float: right;
-    margin-right: 25px;
-    margin-top: 35px;
-    text-align: right;
-}
-
-/* Footer Styles End */

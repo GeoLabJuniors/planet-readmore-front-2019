@@ -405,36 +405,3 @@ body {background: #f7f7f7;overflow-x: hidden;}
 }
 /* Footer Styles Start */
 
-/* Footer */
-
-.mainFoot {
-    width: 100%;
-    height: 90px;
-    background-color: #2E2635;
-    float: left;
-    
-}
-.mainFoot ul {
-    width: 15%;
-    float: left;
-    margin-left: 25px;
-    margin-top: 30px;
-    list-style: none;
-}
-.mainFoot ul li {
-    color: #FFFFFF;
-    opacity: 0.5;
-    font-family: NotoSansTC-Light-Alphabetic;
-	font-size: 14px;
-
-}
-
-.mainFoot .footFigure {
-    min-width: 7%;
-    float: right;
-    margin-right: 25px;
-    margin-top: 35px;
-    text-align: right;
-}
-
-/* Footer Styles End */
