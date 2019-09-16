@@ -17,398 +17,401 @@
 
 <body>
     <header class="mainHeader">
-        <h2 style="display: none"> Nikoloz Palagashvili</h2>
-        <h1><a href="index.html"><img src="images/socials/asset.svg" alt="books" title="მთავარი"></a></h1>
-        <nav>
-            <ul>
-                <li><a href="aboutUs.html"> პროექტის შესახებ</a></li>
-                <li><a href="seasons.html">სეზონები</a></li>
-                <li><a href="books.html" class="active">წიგნები</a></li>
-                <li><a href="#">კონტაქტი</a></li>
-                <li><a href="">სიახლეები</a></li>
-            </ul>
-        </nav>
-        <figure>
-            <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
-            <a href="#"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
-        </figure>
-        <form action="#" method="get" class="Search" id="forSer">
-            <div class="searchlay">
-                <input type="search" name="search">
-                <button type="submit" class="butsub"><img src="images/socials/search_png.png" alt=""></button>
-                <button class="butclo"><img onclick="closeSearch()" src="images/socials/close.png" alt=""></button>
-            </div>
-        </form>
+        <section class="headerWrapper">
+            <h2 style="display: none"> Nikoloz Palagashvili</h2>
+            <h1><a href="index.html"><img src="images/socials/asset.svg" alt="books" title="მთავარი"></a></h1>
+            <form action="#" method="get" class="Search" id="forSer">
+                <div class="searchlay">
+                    <input type="search" name="search">
+                    <button type="submit" class="butsub"><img src="images/socials/search_png.png" alt=""></button>
+                    <button class="butclo"><img onclick="closeSearch()" src="images/socials/close.png" alt=""></button>
+                </div>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="#"> პროექტის შესახებ</a></li>
+                    <li><a href="seasons.html">სეზონები</a></li>
+                    <li><a href="books.html" class="active">წიგნები</a></li>
+                    <li><a href="#">კონტაქტი</a></li>
+                    <li><a href="">სიახლეები</a></li>
+                </ul>
+            </nav>
+            <figure>
+                <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
+                <a href="#"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
+            </figure>
+
+        </section>
     </header>
+    <section class="mainSecc">
+        <aside class="leftAside">
+            <form action="#" class="sea" method="get">
+                <h2>ძიება</h2>
+                <input type="search" name="search" class="searchBar">
+                <button class="formSearch"><img src="images/books/magnifying-glass.png" alt="search" title="ძებნა"></button>
+            </form>
 
-    <aside class="leftAside">
-        <form action="#" class="sea" method="get">
-            <h2>ძიება</h2>
-            <input type="search" name="search" class="searchBar">
-            <button class="formSearch"><img src="images/books/magnifying-glass.png" alt="search" title="ძებნა"></button>
-        </form>
+            <form action="#" method="get" class="rating">
+                <h2>რეიტინგი</h2>
+                <label for="rate"><input type="checkbox" id="rate"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""></label>
+                <label for="rate2"><input type="checkbox" id="rate2"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
+                <label for="rate3"><input type="checkbox" id="rate3"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
+                <label for="rate4"><input type="checkbox" id="rate4"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
+                <label for="rate5"><input type="checkbox" id="rate5"><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
 
-        <form action="#" method="get" class="rating">
-            <h2>რეიტინგი</h2>
-            <label for="rate"><input type="checkbox" id="rate"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""></label>
-            <label for="rate2"><input type="checkbox" id="rate2"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
-            <label for="rate3"><input type="checkbox" id="rate3"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
-            <label for="rate4"><input type="checkbox" id="rate4"><img src="images/books/star3x.png" alt=""><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
-            <label for="rate5"><input type="checkbox" id="rate5"><img src="images/books/star3x.png" alt=""><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"><img src="images/books/grey_star.svg" alt="" class="grey_star"></label>
+            </form>
 
-        </form>
+            <form action="#" class="seasonsS">
+                <label for="seasons"><input type="checkbox" id="seasons">I სეზონი</label>
+                <label for="seasons2"><input type="checkbox" id="seasons2">II სეზონი</label>
+                <label for="seasons3"><input type="checkbox" id="seasons3">III სეზონი</label>
+                <label for="seasons4"><input type="checkbox" id="seasons4">IV სეზონი</label>
+                <label for="seasons5"><input type="checkbox" id="seasons5">V სეზონი</label>
+            </form>
+        </aside>
+        <section class="rightSec">
+            <h2 class="h2books">წიგნები</h2>
+            <section class="forBooks">
+                <h2 style="display: none;">Nikoloz Palagashvili</h2>
+                <article class="book_rating">
 
-        <form action="#" class="seasonsS">
-            <label for="seasons"><input type="checkbox" id="seasons">I სეზონი</label>
-            <label for="seasons2"><input type="checkbox" id="seasons2">II სეზონი</label>
-            <label for="seasons3"><input type="checkbox" id="seasons3">III სეზონი</label>
-            <label for="seasons4"><input type="checkbox" id="seasons4">IV სეზონი</label>
-            <label for="seasons5"><input type="checkbox" id="seasons5">V სეზონი</label>
-        </form>
-    </aside>
-    <section class="rightSec">
-        <h2 class="h2books">წიგნები</h2>
-        <section class="forBooks">
-            <h2 style="display: none;">Nikoloz Palagashvili</h2>
-            <article class="book_rating">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-
+                        </figure>
                     </figure>
-                </figure>
-                <a href="">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href=#>
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>III</p>
-            </article>
-            <article class="book_rating">
+                    <a href="">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href=#>
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>III</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>II</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>II</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>III</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>III</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>II</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>II</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>III</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>III</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>II</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>II</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>III</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>III</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/3a117e2b53a16fc230c78d25b78e2ef2@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>II</p>
-            </article>
-            <article class="book_rating">
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>II</p>
+                </article>
+                <article class="book_rating">
 
-                <figure class="big_fig">
-                    <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
-                    <figure class="small_fig">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/star2x.png" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
-                        <img src="images/books/bold_star.svg" alt="">
+                    <figure class="big_fig">
+                        <img src="images/books/2f45c3a10fe680fe5660e20655d044e1@2x.png" alt="" class="fitted">
+                        <figure class="small_fig">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/star2x.png" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
+                            <img src="images/books/bold_star.svg" alt="">
 
+                        </figure>
                     </figure>
-                </figure>
-                <a href="#">
-                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
-                </a>
-                <a href="#">
-                    <h5>კენ კიზი</h5>
-                </a>
-                <p>I</p>
-            </article>
+                    <a href="#">
+                        <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    </a>
+                    <a href="#">
+                        <h5>კენ კიზი</h5>
+                    </a>
+                    <p>I</p>
+                </article>
+            </section>
         </section>
     </section>
-
 
     <footer class="mainFoot">
         <section class="footWrap">

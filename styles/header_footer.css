@@ -160,10 +160,12 @@ body {
     width: 10%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 5%;
+    justify-content: flex-end;
 
+}
 
+.mainHeader figure a:nth-child(2) {
+    margin-left: 20px;
 }
 
 
