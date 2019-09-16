@@ -1,0 +1,226 @@
+body {
+    background: #f7f7f7;
+    overflow-x: hidden;
+}
+
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.mainHeader .headerWrapper {
+    height: 100%;
+    width: 80%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+/* Search */
+.mainHeader .Search {
+    top: -200%;
+    position: relative;
+    border-radius: 5px;
+    /*
+    -webkit-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
+*/
+}
+
+.mainHeader .openSearch {
+    position: absolute;
+    width: 65%;
+    top: 0;
+    right: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader .Search .searchlay {
+    width: 85%;
+    height: 25px;
+    position: relative;
+
+}
+
+.mainHeader .Search .searchlay input[type="search"] {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 5px 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.mainHeader .Search .butsub {
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+.mainHeader .Search .butsub img,
+.mainHeader .Search .butclo img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader .Search .butclo {
+    position: absolute;
+    left: 0;
+    background: none;
+    outline: none;
+    border: none;
+    top: -10%;
+    height: 30px;
+    width: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+
+}
+
+/* Search Styles End
+
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+    margin-left: 4%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5%;
+
+
+}
+
+
+/*Footer starts here*/
+.mainFoot {
+    width: 100%;
+    height: 90px;
+    background-color: #2E2635;
+    float: left;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.mainFoot .footWrap {
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.mainFoot .footWrap .firstUl,
+.mainFoot .footWrap .secondUl {
+    width: 22%;
+}
+
+
+.mainFoot .footWrap ul {
+    width: 15%;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+
+}
+
+.mainFoot .footWrap .firstUl li:nth-child(2) {
+    margin-left: 16px;
+}
+
+.mainFoot .footWrap ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: BPGExtraSquare;
+    font-size: 14px;
+}
+
+.mainFoot .footWrap .footFigure {
+    min-width: 7%;
+    text-align: right;
+    opacity: 0.7;
+}
