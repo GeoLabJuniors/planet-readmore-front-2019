@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/header_footer.css">
     <link rel="stylesheet" href="styles/book.css">
 
 </head>
@@ -24,7 +25,7 @@
             </form>
             <nav>
                 <ul>
-                    <li><a href="#" class="active"> პროექტის შესახებ</a></li>
+                    <li><a href="aboutUs.html" class="active"> პროექტის შესახებ</a></li>
                     <li><a href="seasons.html">სეზონები</a></li>
                     <li><a href="books.html">წიგნები</a></li>
                     <li><a href="#">კონტაქტი</a></li>
@@ -73,24 +74,54 @@
 
             </article>
         </section>
+        <section class="forRate">
+            <h2>რეიტინგი</h2>
+            <hr style="width: 44%;height: 1px;color: lightgrey; opacity:0.48">
+            <figure>
+                <img src="images/stars/star2x.png" alt="">
+                <img src="images/stars/star2x.png" alt="">
+                <img src="images/stars/star2x.png" alt="">
+                <img src="images/stars/star%20(1)@2x.png" alt="">
+                <img src="images/stars/star%20(1)@2x.png" alt="">
+            </figure>
+            <hr style="width: 44%;height: 1px;color: lightgrey; opacity:0.48">
+            <!--
+            
+             
+-->
+        </section>
+        <!--Rating-->
     </section>
 
     <!--    MainSection ends here-->
 
+    <!--Rating-->
+
+
     <!--Footer Starts Here-->
     <footer class="mainFoot">
-        <ul>
-            <li>www.readmore@gmail.com</li>
-            <li>555 55 55 55</li>
-        </ul>
-        <figure class="footFigure">
-            <a href="#"><img src="images/socials/insta.svg" alt=""></a>
-            <a href="#"><img src="images/socials/fb.svg" alt=""></a>
-            <a href="#"><img src="images/socials/twitter-circular-button.svg" alt=""></a>
-        </figure>
-
+        <section class="footWrap">
+            <ul class="firstUl">
+                <li> <img src="images/head_foot/home-address@2x.png" alt=""> ჭავჭავაძის ქ. 1, თბილისი</li>
+                <li>უნივერსიტეტის ქ. 6, თბილისი</li>
+            </ul>
+            <ul class="secondUl">
+                <li><img src="images/head_foot/email@2x.png" alt=""> www.readmore@gmail.com</li>
+                <li><img src="images/head_foot/Path%2058.png" alt=""> 555 55 55 55</li>
+            </ul>
+            <figure class="footFigure">
+                <a href="#"><img src="images/socials/insta.svg" alt=""></a>
+                <a href="#"><img src="images/socials/fb.svg" alt=""></a>
+                <a href="#"><img src="images/socials/twitter-circular-button.svg" alt=""></a>
+            </figure>
+        </section>
     </footer>
+    <script>
+        if (screen.height < 800) {
+            document.getElementsByTagName('BODY').innerHeight = '900px';
+        }
 
+    </script>
     <script src="scripts/search.js"></script>
     <script src="scripts/book.js"></script>
 </body>
