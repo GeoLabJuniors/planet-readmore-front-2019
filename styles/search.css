@@ -1,0 +1,374 @@
+.searchSection .h2books {
+    width: 100%;
+    opacity: 0.7;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.searchSection .h2books::after {
+    content: "";
+    height: 1px;
+    width: 92%;
+    background: #707070;
+    position: absolute;
+    bottom: 49%;
+    right: 0;
+}
+
+.searchSection {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.searchSection .meore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.searchSection .meore .book_rating {
+    width: 239px;
+    max-width: 239px;
+    background: #FFFFFF;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+
+
+}
+
+.searchSection .meore .book_rating:hover {
+    box-shadow: 5px 5px 40px lightgrey;
+}
+
+.searchSection .meore .book_rating .big_fig {
+    position: relative;
+    width: 100%;
+    height: 221.6px;
+    max-height: 221.6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.searchSection .meore .book_rating .big_fig .fitted {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.searchSection .meore .book_rating .big_fig .small_fig {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+
+.searchSection .meore .book_rating h2 {
+
+    opacity: 0.89;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.searchSection .meore .book_rating h5 {
+    padding: 0 10px;
+    opacity: 0.4;
+    font-family: NotoSansTC;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.searchSection .meore .book_rating p {
+    color: #f3a42c;
+    float: right;
+    padding-right: 15px;
+}
+
+.searchSection .seasonsH2 {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.7;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.searchSection .seasonsH2::after {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: black;
+    right: 0;
+    top: 50%;
+    opacity: 0.5;
+
+}
+
+/*aaaaaaaaaaaaaaaaaaaaa*/
+
+.mesame .alliN {
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 25px 0;
+    margin-top: 40px;
+    -webkit-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+    transition: box-shadow .5s;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mesame .alliN:hover {
+    box-shadow: 0 0 40px lightgrey;
+}
+
+.mesame .alliN header {
+    width: 17%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.mesame .alliN header .month {
+
+    opacity: 0.64;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+
+
+}
+
+.mesame .alliN header .month::after {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    border-radius: 4px;
+    background-color: #000000;
+    opacity: 0.44;
+}
+
+.mesame .alliN header .year {
+    font-family: Arial;
+    opacity: 0.41;
+    margin-top: 35%;
+    font-size: 30px;
+}
+
+
+.mesame .alliN .artFoot h2 {
+
+
+    font-family: BPGExtraSquareMtavruli;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+    display: block;
+}
+
+.mesame .alliN img {
+    margin-right: 30px;
+    height: 200px;
+    max-height: 200px;
+}
+
+.mesame .alliN .artFoot .p1 {
+    opacity: 0.52;
+    color: #000000;
+    font-family: BPGExtraSquareMtavruli;
+    margin-top: 3%;
+    display: block;
+}
+
+.mesame .alliN .artFoot .p2 {
+
+
+    opacity: 0.53;
+    font-family: NotoSansTC-Bold-Alphabetic;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    width: 90%;
+    margin-top: 3%;
+    opacity: 0.42;
+
+}
+
+.mesame .alliN .artFoot hr {
+
+    width: 90%;
+    height: 1.3px;
+    opacity: 0.5;
+    border: solid 0.5px #707070;
+    float: left;
+    margin-top: 5%;
+
+}
+
+.mesame .alliN .viewMore {
+
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    display: block;
+    transition: all .4s;
+    box-sizing: border-box;
+    float: left;
+    line-height: 28px;
+    margin-top: 4.5%;
+
+
+}
+
+.mesame .alliN .viewMore:hover {
+    background: #F6BF6A;
+    color: white;
+    border: none;
+
+}
+
+/*newsh2 styles*/
+
+.searchSection .newsh2 {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.7;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.searchSection .newsh2::after {
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 1px;
+    background: black;
+    right: 0;
+    top: 50%;
+    opacity: 0.5;
+}
+
+.newsSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.newsSection article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+.newsSection article figure {
+    width: 275px;
+    max-width: 275px;
+    height: 205px;
+    max-height: 205px;
+    border-radius: 10px;
+    padding-right: 30px;
+    box-sizing: content-box;
+
+
+}
+
+.newsSection article figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.newsSection article article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+    padding: 0;
+}
+
+.newsSection article article h2 {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.newsSection article article p {
+    margin-top: 35px;
+
+}
+
+.newsSection article article p:nth-child(2) {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.29;
+}
+
+.newsSection article article p:nth-child(3) {
+    font-family: NotoSansTC-Bold-Alphabetic;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
