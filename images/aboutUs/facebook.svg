@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.333" height="46.375" viewBox="0 0 32.333 46.375">
+    <defs>
+        <style>
+            .cls-1{fill:#385c8e}.cls-2{filter:url(#facebook_2_)}
+        </style>
+        <filter id="facebook_2_" width="32.333" height="46.375" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g class="cls-2">
+        <path id="facebook_2_2" d="M127.14 15.112h3.11v12.8a.458.458 0 0 0 .458.458h5.274a.458.458 0 0 0 .458-.458V15.173h3.576a.458.458 0 0 0 .455-.405l.543-4.714a.458.458 0 0 0-.455-.51h-4.119V6.588c0-.891.48-1.342 1.426-1.342h2.693a.458.458 0 0 0 .458-.458V.461a.458.458 0 0 0-.459-.461h-3.881a7.112 7.112 0 0 0-4.65 1.753 4.876 4.876 0 0 0-1.627 4.335v3.455h-3.26a.458.458 0 0 0-.458.458v4.654a.458.458 0 0 0 .458.457z" class="cls-1" data-name="facebook (2)" transform="translate(-117.68 6)"/>
+    </g>
+</svg>

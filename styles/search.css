@@ -1,3 +1,10 @@
+.searchSection {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px auto;
+}
+
 .searchSection .h2books {
     width: 100%;
     opacity: 0.7;
@@ -21,13 +28,6 @@
     position: absolute;
     bottom: 49%;
     right: 0;
-}
-
-.searchSection {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 30px auto;
 }
 
 .searchSection .meore {
