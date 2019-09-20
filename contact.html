@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/fonts.css">
+    <title>Document</title>
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/header_footer.css">
-    <link rel="stylesheet" href="styles/404.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
-    <script src="scripts/search.js"></script>
-    <title>allNews</title>
+
 </head>
 
 <body>
@@ -26,25 +26,59 @@
             </form>
             <nav>
                 <ul>
-                    <li><a href="#" class="active"> პროექტის შესახებ</a></li>
+                    <li><a href="#"> პროექტის შესახებ</a></li>
                     <li><a href="seasons.html">სეზონები</a></li>
                     <li><a href="books.html">წიგნები</a></li>
                     <li><a href="">სიახლეები</a></li>
-                    <li><a href="contact.html">კონტაქტი</a></li>
+                    <li><a href="contact.html" class="active">კონტაქტი</a></li>
                 </ul>
             </nav>
             <figure>
                 <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
-                <a href="#"> <img class="openModal" src="images/socials/in.svg" alt="login" title="შესვლა"></a>
+                <a href="#" class="openModal"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
             </figure>
 
         </section>
     </header>
-    <hgroup class="notFound">
-        <h3>404 </h3>
-        <h3>გვერდი ვერ მოიძებნა</h3>
-    </hgroup>
+    <!--    Header Ends Here-->
 
+    <section class="contactSec">
+        <h2>კონტაქტი</h2>
+        <section class="twoSides">
+            <article class="leftOne">
+                <span>
+                    <img src="images/head_foot/2/email.png" alt="">
+                    readmore@tsu.edu.ge
+
+                </span>
+                <ul>
+                    <li><img src="images/head_foot/2/Path%2053.png" alt=""></li>
+                    <li>555 55 55 55</li>
+                    <li>0322 22 23 24</li>
+                </ul>
+
+                <ul>
+                    <li><img src="images/head_foot/2/home-address.png" alt=""></li>
+                    <li>ჭავჭავაძის ქ. 1, თბილისი</li>
+                    <li>უნივერსიტეტის ქ.6 , თბილისი</li>
+                </ul>
+
+                <div class="forFacebook">
+                    facebook Page Place
+                </div>
+
+            </article>
+
+
+
+            <article class="rightOne">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.4877466454245!2d44.77613531542466!3d41.70999287923592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd303e22a79%3A0x9ca221cc99a5e1b6!2z4YOX4YOh4YOjIEkg4YOZ4YOd4YOg4YOe4YOj4YOh4YOYLCAxIElsaWEgQ2hhdmNoYXZhZHplIEF2ZW51ZSwgVCdiaWxpc2k!5e0!3m2!1sen!2sge!4v1568975680604!5m2!1sen!2sge" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+            </article>
+
+        </section>
+    </section>
     <!--    modal findow fore login-->
     <section class="mainModalPage">
         <section class="modalPage">
@@ -55,6 +89,8 @@
             </figure>
         </section>
     </section>
+
+    <!--Footer Starts Here-->
     <footer class="mainFoot">
         <section class="footWrap">
             <ul class="firstUl">
@@ -71,18 +107,8 @@
                 <a href="#"><img src="images/socials/twitter-circular-button.svg" alt=""></a>
             </figure>
         </section>
-    </footer>
-    <style>
-        .mainFoot {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
 
-    </style>
+    </footer>
     <script src="scripts/openModal.js"></script>
-    <script src="scripts/foot.js"></script>
     <script src="scripts/search.js"></script>
 </body>
-
-</html>
