@@ -8,7 +8,7 @@ $login.addEventListener('click', function (event) {
 
 
 window.onclick = function (event) {
-    console.log(event)
+
     if (event.target == $Modal) {
         $Modal.style.display = "none"
     }
