@@ -21,13 +21,15 @@
                     <input type="search" name="search">
                     <button type="submit" class="butsub"><img src="images/socials/search_png.png" alt=""></button>
                     <button class="butclo"><img onclick="closeSearch()" src="images/socials/close.png" alt=""></button>
+
                 </div>
             </form>
-            <nav>
+            <nav class="forBurger">
                 <ul>
-                    <li><a href="#" class="active"> პროექტის შესახებ</a></li>
+                    <li><a href="aboutUs.html" class="active"> პროექტის შესახებ</a></li>
                     <li><a href="seasons.html">სეზონები</a></li>
                     <li><a href="books.html">წიგნები</a></li>
+
                     <li><a href="">სიახლეები</a></li>
                     <li><a href="contact.html">კონტაქტი</a></li>
                 </ul>
@@ -35,6 +37,7 @@
             <figure>
                 <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
                 <a href="#" class="openModal"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
+                <button class="burger" onclick="burger()">&#9776;</button>
             </figure>
 
         </section>
@@ -90,6 +93,7 @@
     <script src="scripts/openModal.js"></script>
     <script src="scripts/foot.js"></script>
     <script src="scripts/search.js"></script>
+    <script src="scripts/burger.js"></script>
 
 </body>
 

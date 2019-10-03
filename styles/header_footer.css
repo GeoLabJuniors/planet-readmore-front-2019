@@ -18,6 +18,10 @@ body {
 
 }
 
+.mainHeader figure .burger {
+    display: none;
+}
+
 .mainHeader .headerWrapper {
     height: 100%;
     width: 80%;
@@ -158,6 +162,7 @@ body {
 /* Search & LogIn  Styles Start*/
 .mainHeader figure {
     width: 10%;
+    min-width: 10%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -292,4 +297,119 @@ body {
     min-width: 7%;
     text-align: right;
     opacity: 0.7;
+}
+
+@media screen and (max-width: 425px) {
+
+    .mainHeader {
+        height: 60px;
+
+    }
+
+    .mainHeader .headerWrapper {
+        width: 95%;
+    }
+
+    .mainHeader figure {
+        width: 35%;
+        justify-content: space-between;
+    }
+
+    .mainHeader figure a:nth-child(2) {
+
+        margin-left: 0;
+
+    }
+
+
+    .mainHeader figure .burger {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 900;
+        font-size: 28px;
+
+        text-align: center;
+
+        line-height: 25px;
+        z-index: 100000000;
+
+    }
+
+    .mainHeader h1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .mainHeader h1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainHeader nav {
+        display: block;
+
+        position: fixed;
+
+        width: 70%;
+
+        right: 0;
+
+        top: 0;
+        height: 260px;
+        background: white;
+        z-index: 999;
+        top: -100%;
+
+    }
+    
+    .mainHeader .navTop {
+        top: 0;
+        transition: all .4s;
+    }
+
+    .mainHeader nav ul {
+        flex-direction: column;
+        text-align: right;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-left: 50px;
+
+    }
+
+    .mainHeader nav ul li {
+        line-height: 30px;
+        border-bottom: solid 1px #E2E2E2;
+        width: 100%;
+    }
+
+    .mainHeader ul li a {
+        color: black;
+        font-family: NotoSansTC-Light-Alphabetic;
+    }
+
+    .mainFoot {
+        height: 190px;
+    }
+
+    .mainFoot .footWrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainFoot .footWrap ul {
+        height: auto;
+    }
+
+    .mainFoot .footWrap .firstUl,
+    .mainFoot .footWrap .secondUl {
+        width: 100%;
+        text-align: center;
+        height: 40px;
+    }
 }

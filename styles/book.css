@@ -1,6 +1,3 @@
-
-
-
 /*mainSection starts here*/
 
 .mainSection {
@@ -27,6 +24,10 @@
 
 }
 
+.mainSection .firstSection .leftSide .first_hgroup {
+    display: none;
+}
+
 .mainSection .firstSection .leftSide .bookPic {
     width: 100%;
     height: 383px;
@@ -38,14 +39,14 @@
     margin-bottom: 30px;
 }
 
-.mainSection .firstSection .leftSide hgroup {
+.mainSection .firstSection .leftSide .second_hgroup {
 
     float: left;
     position: relative;
 
 }
 
-.mainSection .firstSection .leftSide hgroup::after {
+.mainSection .firstSection .leftSide .second_hgroup::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -57,7 +58,7 @@
 }
 
 
-.mainSection .firstSection .leftSide hgroup h2 {
+.mainSection .firstSection .leftSide .second_hgroup h2 {
     padding: 5px 0;
     box-sizing: content-box;
     font-family: BPGExtraSquareMtavruli;
@@ -66,7 +67,7 @@
 
 }
 
-.mainSection .firstSection .leftSide hgroup h2 span {
+.mainSection .firstSection .leftSide .second_hgroup h2 span {
     font-size: 14px;
     opacity: 0.64;
 }
@@ -186,4 +187,59 @@
 /*Rating section styles start*/
 /* Footer */
 
+@media screen and (max-width: 425px) {
+    .mainSection .firstSection {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
 
+    .mainSection .firstSection .leftSide {
+        width: 100%;
+    }
+
+    .mainSection .firstSection .rightSide h2 {
+        display: none;
+    }
+
+    .mainSection .firstSection .rightSide {
+        margin-top: 80px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .mainSection .firstSection .rightSide .stretcher {
+        bottom: 2px;
+        width: 40px;
+    }
+
+    .mainSection .forRate h2,
+    .mainSection .forRate hr {
+        display: none;
+    }
+
+
+
+    .mainSection .forRate figure {
+        width: 100%;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup {
+        display: block;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup h2 {
+        font-family: BPGExtraSquareMtavruli;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup h2:nth-child(2) {
+        color: #F3A42C;
+        font-size: 14px;
+    }
+
+
+}

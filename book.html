@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/header_footer.css">
     <link rel="stylesheet" href="styles/book.css">
 
+
 </head>
 
 <body>
@@ -21,9 +22,10 @@
                     <input type="search" name="search">
                     <button type="submit" class="butsub"><img src="images/socials/search_png.png" alt=""></button>
                     <button class="butclo"><img onclick="closeSearch()" src="images/socials/close.png" alt=""></button>
+
                 </div>
             </form>
-            <nav>
+            <nav class="forBurger">
                 <ul>
                     <li><a href="aboutUs.html" class="active"> პროექტის შესახებ</a></li>
                     <li><a href="seasons.html">სეზონები</a></li>
@@ -36,6 +38,7 @@
             <figure>
                 <a href="#" onclick="showSearch()" id="searchIcon"> <img src="images/socials/search.svg" alt="search" title="ძებნა"></a>
                 <a href="#" class="openModal"> <img src="images/socials/in.svg" alt="login" title="შესვლა"></a>
+                <button class="burger" onclick="burger()">&#9776;</button>
             </figure>
 
         </section>
@@ -48,9 +51,14 @@
         <h2 style="display: none">Nikoloz Palagashvili</h2>
         <section class="firstSection">
             <article class="leftSide">
+                <hgroup class="first_hgroup">
+
+                    <h2>ვიღაცამ გუგულის ბუდეს გადაუფრინა</h2>
+                    <h2>კენ კიზი</h2>
+                </hgroup>
                 <h2 style="display: none">Nikoloz Palagashvili</h2>
                 <figure class="bookPic" style="background-image: url(images/book/08469ab6311af7534448c3f19803f2ee.jpg)"></figure>
-                <hgroup>
+                <hgroup class="second_hgroup">
                     <h2>2 <span>სეზონი</span></h2>
                     <h2>6 <span>ტური</span></h2>
                 </hgroup>
@@ -129,7 +137,7 @@
     </footer>
     <script>
         if (screen.height < 800) {
-            document.getElementsByTagName('BODY').style.height = '900px';
+            document.getElementsByTagName('BODY')[0].style.height = '900px';
         }
 
     </script>
@@ -137,6 +145,7 @@
     <script src="scripts/search.js"></script>
     <script src="scripts/book.js"></script>
     <script src="scripts/openModal.js"></script>
+    <script src="scripts/burger.js"></script>
 </body>
 
 </html>
