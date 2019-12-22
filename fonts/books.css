@@ -1,0 +1,111 @@
+body {background: #f7f7f7;}
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+
+    align-items: center;
+    
+
+}
+
+/* Header Styles End */
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+/* Search & LogIn  Styles End*/
+/* Header Styles End */
+
+
+
+
+/* Footer Styles Start */
+
+
+.mainFoot {
+    width: 100%;
+    height: 100px;
+    background-color: #2E2635;
+    
+}
+.mainFoot ul {
+    width: 15%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    list-style: none;
+}
+.mainFoot ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: NotoSansTC-Light-Alphabetic;
+	font-size: 14px;
+
+}
+
+
+
+
+.mainFoot .footFigure {
+    min-width: 7%;
+    float: right;
+    margin-right: 25px;
+    margin-top: 43px;
+    text-align: right;
+}
+
+
+/* Footer Styles End */

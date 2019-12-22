@@ -1,0 +1,518 @@
+/* Main Contetnt Stylesl Start */
+
+.firstSec {
+    width: 80%;
+    margin: 15px auto;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.firstSec .imgTxt {
+    width: 37%;
+}
+
+.firstSec .imgTxt img {
+    width: 100%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.firstSec .imgTxt .date_rul {
+    width: 48%;
+    display: inline-block;
+}
+
+.firstSec .imgTxt .date_rul .date {
+    font-family: BPGExtraSquareMtavruli;
+    opacity: 0.64;
+    margin-top: 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+.firstSec .imgTxt .date_rul .date::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    height: 1px;
+    width: 14%;
+
+    border-radius: 4px;
+    box-shadow: 0 5px 17.5px 0 rgba(0, 0, 0, 0.16);
+    background-color: #000000;
+}
+
+.firstSec .imgTxt .date_rul .year {
+    margin-top: 10%;
+
+    opacity: 0.41;
+    font-family: Arial Black;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.firstSec .imgTxt .rul {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+
+.viewMore {
+
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    display: block;
+    margin-left: calc(50% - 55px);
+    transition: all .4s;
+    box-sizing: border-box;
+
+
+}
+
+.viewMore:hover {
+    background: #F6BF6A;
+    color: white;
+    border: none;
+
+}
+
+.firstSec .text {
+    width: 37%;
+    position: relative;
+}
+
+
+.firstSec .text h2 {
+
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+}
+
+.firstSec .text .datxt {
+
+    opacity: 0.29;
+    font-family: BPGExtraSquareMtavruli;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin: 25px auto;
+
+}
+
+.firstSec .text .grandTxt {
+
+    opacity: 0.5;
+    font-family: NotoSansTC;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.secSection {
+    width: 78%;
+    margin: 15px auto;
+
+
+
+
+}
+
+/* H2 Books Styles Starts Here */
+.books {
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 16px;
+    width: 96%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    color: #707070;
+}
+
+.books::after {
+    content: "";
+    height: 1px;
+    width: 97.3%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+    opacity: 0.4;
+    margin-left: 1%;
+}
+
+
+
+/* H2 Books Styles Ends Here */
+
+.secSection nav {
+    width: 100%;
+    text-align: center;
+}
+
+.secSection nav a {
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    transition: all .4s;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 4%;
+}
+
+.secSection nav a:hover {
+    background: #F6BF6A;
+    color: white;
+    border: none;
+
+
+}
+
+/*
+BOok Sliders Starts Here 
+*/
+
+/* Second Slider Start */
+.bookSlider .slick-track,
+.bookSlider slick-list,
+.bookSlider {
+    height: 450px;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.bookSlider .slick-next {
+    right: 5% !important;
+    z-index: 1000;
+    top: calc(47% - 15px);
+}
+
+.bookSlider .slick-prev {
+    left: 5% !important;
+    z-index: 1000;
+    top: calc(50% - 15px);
+}
+
+.bookSlider {
+
+    padding: 0 !important;
+    position: relative;
+
+}
+
+.bookSlider::after {
+    content: "";
+    height: 78%;
+    width: 140px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    right: 0;
+    bottom: 11%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.bookSlider::before {
+    content: "";
+    height: 78%;
+    width: 140px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.45);
+    z-index: 999;
+    right: left;
+    bottom: 11%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+
+
+.bookSlider article {
+    height: 350px !important;
+    width: 208px !important;
+    background-color: white;
+    margin: auto 10px;
+    border-radius: 10px;
+
+
+}
+
+.bookSlider article:hover {
+    box-shadow: 0px 0px 50px grey;
+}
+
+.bookSlider article img {
+    width: 100% !important;
+    height: 265px !important;
+}
+
+.bookSlider article h2 {
+    font-size: 14px;
+
+    min-height: 40px;
+    font-family: BPGExtraSquareMtavruli;
+    width: 95%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px 11px;
+    word-wrap: break-word;
+    color: black;
+}
+
+.bookSlider article h5 {
+    font-size: 12px;
+    width: 99%;
+    padding: 0 11px;
+    font-family: NotoSansTC-Light-Alphabetic;
+    color: #707070;
+}
+
+.bookSlider article a {
+    text-decoration: none;
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+.lastSlider .slick-slider .slick-track,
+.lastSlider .slick-slider .slick-list {
+    height: 350px;
+}
+
+/* Books Slider End */
+
+/* ჰ2 გამარჯვებულის */
+.winner {
+    width: 78%;
+    margin: 0px auto 50px auto;
+    opacity: 0.48;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+}
+
+.winner::after {
+    content: "";
+    height: 1px;
+    width: 87%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+    opacity: 0.4;
+    margin-left: 1%;
+}
+
+.thirdSection {
+    width: 78%;
+    margin: 15px auto;
+
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.thirdSection figure {
+    width: 35%;
+    line-height: 60px;
+}
+
+.thirdSection figure img {
+    margin: 20px 0 0 20px;
+}
+
+.thirdSection .winas {
+    width: 55%;
+    margin: 20px auto 0 auto;
+}
+
+.thirdSection .winas h2 {
+
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.thirdSection .winas h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -45%;
+    left: 0;
+    height: 1px;
+    opacity: 0.5;
+    background: #707070;
+
+}
+
+.thirdSection .winas p {
+
+    margin-top: 5%;
+    opacity: 0.5;
+    font-family: NotoSansTC;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.88;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+
+.gallery {
+    width: 78%;
+    margin: 50px auto 0 auto;
+    opacity: 0.48;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+}
+
+.gallery::after {
+    content: "";
+    height: 1px;
+    width: 91%;
+    position: absolute;
+    background-color: #707070;
+    top: 50%;
+    opacity: 0.4;
+    margin-left: 1%;
+}
+
+/*
+.modalHref img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+*/
+
+.lastSlider {
+    width: 78%;
+    margin: 50px auto 50px auto;
+    max-height: 178px;
+    
+}
+
+.lastSlider img {
+    max-height: 178px;
+    object-fit: cover;
+}
+
+.lastSlider .slick-next {
+    right: -5%;
+    top: 50%;
+}
+
+.lastSlider .slick-prev {
+    left: -5%;
+    top: 43%;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+/*Modal Box Slider Styles*/
+
+#mBox {
+    width: 60%;
+}
+
+#mBox .mBox-current {
+/*    height: 400px;*/
+    max-height: 400px;
+}
+
+#mBox .mBox-current figure {
+    width: 100%;
+    height: 100%;
+}
+
+#mBox .mBox-current img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+@media screen and (max-width:425px){
+    #mBox .mBox-navigation {
+        display: block !important;
+    }
+}

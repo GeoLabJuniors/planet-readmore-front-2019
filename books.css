@@ -1,0 +1,276 @@
+.mainSecc {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.viewMore {
+
+    text-decoration: none;
+    border: solid 0.5px #707070;
+    border-radius: 5px;
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    color: #f4b04a;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    display: block;
+    transition: all .4s;
+    box-sizing: border-box;
+    float: left;
+    line-height: 28px;
+    margin-top: 2%;
+
+
+}
+
+.viewMore:hover {
+    background: #F6BF6A;
+    color: white;
+    border: none;
+
+}
+
+/* Search & LogIn  Styles End*/
+/* Header Styles End */
+
+
+/* Left Side Styles Start */
+.leftAside {
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.leftAside form {
+    margin-top: 70px;
+}
+
+.leftAside .sea {
+    position: relative;
+}
+
+.leftAside .sea .formSearch {
+    position: absolute;
+    right: 3%;
+    bottom: 4.5%;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.leftAside input[type=search] {
+    width: 250px;
+    width: 100%;
+    height: 35.6px;
+    border-radius: 2.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    outline: none;
+    border: none;
+}
+
+.leftAside h2 {
+    opacity: 0.7;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.leftAside .rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftAside .rating label {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.leftAside .rating input[type=checkbox] {
+    margin-right: 10px;
+
+}
+
+.leftAside .rating .grey_star {
+    height: 18px;
+    width: 17px;
+}
+
+.leftAside .seasonsS {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftAside .seasonsS label {
+    opacity: 0.7;
+    cursor: pointer;
+    font-family: NotoSansTC-Light-Alphabetic;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Left Side Styles End */
+
+
+.rightSec {
+
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.rightSec .not_found {
+    width: 100%;
+    text-align: center;
+    font-family: NotoSansTC;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #e2e2e2;
+    margin-top: 55px;
+}
+
+.rightSec .h2books {
+    width: 99%;
+    opacity: 0.7;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    position: relative;
+    margin-top: 45px;
+}
+
+.rightSec .h2books::after {
+    content: "";
+    height: 1px;
+    width: 88%;
+    background: #707070;
+    position: absolute;
+    bottom: 49%;
+    right: 0;
+}
+
+.rightSec .forBooks {
+    margin-top: 55px;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.rightSec .forBooks .book_rating {
+    width: 239px;
+    max-width: 239px;
+    background: #FFFFFF;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+
+
+}
+
+.rightSec .forBooks .book_rating:hover {
+    box-shadow: 5px 5px 40px lightgrey;
+}
+
+.rightSec .forBooks .book_rating .big_fig {
+    position: relative;
+    width: 100%;
+    height: 221.6px;
+    max-height: 221.6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.rightSec .forBooks .book_rating .big_fig .fitted {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.rightSec .forBooks .book_rating .big_fig .small_fig {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+
+.rightSec .forBooks .book_rating h2 {
+
+    opacity: 0.89;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+.rightSec .forBooks .book_rating h5 {
+    padding: 0 10px;
+    opacity: 0.4;
+    font-family: NotoSansTC;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.rightSec .forBooks .book_rating p {
+    color: #f3a42c;
+    float: right;
+    padding-right: 15px;
+}
+
+/* Footer Styles Start */

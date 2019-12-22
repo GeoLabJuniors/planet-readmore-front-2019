@@ -1,0 +1,245 @@
+/*mainSection starts here*/
+
+.mainSection {
+    width: 79%;
+    margin: 30px auto;
+}
+
+.mainSection .firstSection {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: -25px 15px 40px rgba(234, 234, 234, 0.98),
+        -25px 15px 40px rgb(224, 210, 210);
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .leftSide {
+    width: 40%;
+    height: 480px;
+    float: left;
+
+}
+
+.mainSection .firstSection .leftSide .first_hgroup {
+    display: none;
+}
+
+.mainSection .firstSection .leftSide .bookPic {
+    width: 100%;
+    height: 383px;
+    max-height: 383px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.mainSection .firstSection .leftSide .second_hgroup {
+
+    float: left;
+    position: relative;
+
+}
+
+.mainSection .firstSection .leftSide .second_hgroup::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 54px;
+    height: 1px;
+    background: #F3A42C;
+    opacity: 0.7;
+}
+
+
+.mainSection .firstSection .leftSide .second_hgroup h2 {
+    padding: 5px 0;
+    box-sizing: content-box;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 25px;
+    color: #f3a42c;
+
+}
+
+.mainSection .firstSection .leftSide .second_hgroup h2 span {
+    font-size: 14px;
+    opacity: 0.64;
+}
+
+.mainSection .firstSection .leftSide section {
+    float: right;
+}
+
+.mainSection .firstSection .leftSide section h5 {
+    color: #F3A42C;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 14px;
+    padding-top: 11px;
+
+}
+
+.mainSection .firstSection .leftSide section figure {
+    padding-top: 15px;
+}
+
+.mainSection .firstSection .leftSide section figure img {
+    float: right;
+    margin-left: 2px;
+}
+
+.mainSection .firstSection .rightSide {
+    width: 50%;
+    float: right;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .rightSide {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mainSection .firstSection .rightSide h2 {
+    margin-bottom: 40px;
+    font-family: BPGExtraSquareMtavruli;
+
+}
+
+.mainSection .firstSection .rightSide h2:nth-child(2) {
+    color: #F3A42C;
+
+}
+
+.mainSection .firstSection .rightSide .longText {
+    font-family: NotoSansTC-Light-Alphabetic;
+    opacity: 0.5;
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: relative;
+    max-height: 275px;
+    overflow: hidden;
+    transition: height .4s;
+}
+
+.mainSection .firstSection .rightSide .longText::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 64%, #f7f7f7);
+    height: 100px;
+}
+
+.mainSection .firstSection .rightSide .stretcher {
+    border: none;
+    background: none;
+    outline: none;
+    width: 30px;
+    cursor: pointer;
+    align-self: center;
+    position: absolute;
+    bottom: -85px;
+
+
+}
+
+.mainSection .firstSection .rightSide .stretcher:hover ~ p::after {
+    opacity: 0;
+}
+
+
+/*Rating section styles start */
+.mainSection .forRate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.mainSection .forRate h2 {
+    padding-right: 10px;
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 15px;
+    opacity: 0.48;
+}
+
+.mainSection hr {
+    height: 1px;
+    color: lightgrey;
+    opacity: 0.48;
+}
+
+.mainSection .forRate figure {
+    width: 12%;
+    text-align: center;
+}
+
+/*Rating section styles start*/
+/* Footer */
+
+@media screen and (max-width: 425px) {
+    .mainSection .firstSection {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .mainSection .firstSection .leftSide {
+        width: 100%;
+    }
+
+    .mainSection .firstSection .rightSide h2 {
+        display: none;
+    }
+
+    .mainSection .firstSection .rightSide {
+        margin-top: 80px;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .mainSection .firstSection .rightSide .stretcher {
+        bottom: 2px;
+        width: 40px;
+    }
+
+    .mainSection .forRate h2,
+    .mainSection .forRate hr {
+        display: none;
+    }
+
+
+
+    .mainSection .forRate figure {
+        width: 100%;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup {
+        display: block;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup h2 {
+        font-family: BPGExtraSquareMtavruli;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .mainSection .firstSection .leftSide .first_hgroup h2:nth-child(2) {
+        color: #F3A42C;
+        font-size: 14px;
+    }
+
+
+}

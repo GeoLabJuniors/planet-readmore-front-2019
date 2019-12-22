@@ -1,0 +1,423 @@
+body {
+    background: #f7f7f7;
+    overflow-x: hidden;
+}
+
+/* Header Styles Start */
+.mainHeader {
+    height: 100px;
+    width: 100%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.mainHeader figure .burger {
+    display: none;
+}
+
+.mainHeader .headerWrapper {
+    height: 100%;
+    width: 80%;
+    background: #4f4153;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+/* Search */
+.mainHeader .Search {
+    top: -200%;
+    position: relative;
+    border-radius: 5px;
+    /*
+    -webkit-transition: all .5s;
+    -o-transition:  all .5s;
+    transition:  all .5s;
+*/
+}
+
+.mainHeader .openSearch {
+    position: absolute;
+    width: 65%;
+    top: 0;
+    right: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader .Search .searchlay {
+    width: 85%;
+    height: 25px;
+    position: relative;
+
+}
+
+.mainHeader .Search .searchlay input[type="search"] {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 5px 0;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+.mainHeader .Search .butsub {
+    background: none;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+}
+
+.mainHeader .Search .butsub img,
+.mainHeader .Search .butclo img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeader .Search .butclo {
+    position: absolute;
+    left: 0;
+    background: none;
+    outline: none;
+    border: none;
+    top: -10%;
+    height: 30px;
+    width: 40px;
+    z-index: 999;
+    cursor: pointer;
+    transition: all 0s;
+
+}
+
+/* Search Styles End
+
+/* Logo Styles Start*/
+.mainHeader h1 {
+    background-color: white;
+    height: 71px;
+    border-radius: 100%;
+}
+
+/* Logo Styles End*/
+/* Navigation Styles Start*/
+.mainHeader nav {
+    width: 50%;
+    margin-left: 4%;
+}
+
+.mainHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.mainHeader ul li {
+    font-family: BPGExtraSquareMtavruli;
+}
+
+.mainHeader ul .active {
+    color: #F3A42C;
+}
+
+.mainHeader ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.mainHeader ul li a:hover {
+    color: #F3A42C;
+}
+
+/* Navigation Styles End*/
+
+/* Search & LogIn  Styles Start*/
+.mainHeader figure {
+    width: 10%;
+    min-width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.mainHeader figure a:nth-child(2) {
+    margin-left: 20px;
+}
+
+/* Header Styles Ends */
+
+/* Modal Styles Starts */
+
+
+.mainModalPage {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 99999999;
+}
+
+.mainModalPage .modalPage {
+    width: 60%;
+    height: 30%;
+    margin-left: 50%;
+    transform: translate(-50%, 100%);
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.mainModalPage .modalPage h2 {
+    font-family: BPGExtraSquareMtavruli;
+    font-size: 20px;
+    color: #000000;
+}
+
+.mainModalPage .modalPage figure {
+    max-width: 355px;
+min-width: 232px;
+
+}
+
+.mainModalPage .modalPage figure img {
+
+    box-shadow: 0 2px 10px gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 49px;
+    width: 34px;
+    float: left;
+
+}
+
+.mainModalPage .modalPage figure figcaption {
+font-size: 14px;
+color: white;
+background: #385c8e;
+width: 84%;
+height: 49px;
+text-align: center;
+line-height: 49px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+float: left;
+}
+
+/* Modal sTyles Ends */
+
+/*Footer starts here*/
+.mainFoot {
+    width: 100%;
+    height: 90px;
+    background-color: #2E2635;
+    float: left;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.mainFoot .footWrap {
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    align-content: center;
+
+}
+
+.mainFoot .footWrap .firstUl,
+.mainFoot .footWrap .secondUl {
+    width: 22%;
+}
+
+
+.mainFoot .footWrap ul {
+    width: 15%;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+
+}
+
+.mainFoot .footWrap .firstUl li:nth-child(2) {
+    margin-left: 16px;
+}
+
+.mainFoot .footWrap ul li {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: NotoSansTC-Light-Alphabetic;
+    font-size: 14px;
+}
+
+.mainFoot .footWrap .footFigure {
+    min-width: 7%;
+    text-align: right;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 425px) {
+
+    .mainHeader {
+        height: 60px;
+
+    }
+
+    .mainHeader .headerWrapper {
+        width: 95%;
+    }
+
+    .mainHeader figure {
+        width: 35%;
+        justify-content: space-between;
+    }
+
+    .mainHeader figure a:nth-child(2) {
+
+        margin-left: 0;
+
+    }
+
+
+    .mainHeader figure .burger {
+        display: block;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 900;
+        font-size: 28px;
+
+        text-align: center;
+
+        line-height: 25px;
+        z-index: 100000000;
+
+    }
+
+    .mainHeader h1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .mainHeader h1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainHeader nav {
+        display: block;
+
+        position: fixed;
+
+        width: 70%;
+
+        right: 0;
+
+        top: 0;
+        height: 260px;
+        background: white;
+        z-index: 999;
+        top: -100%;
+
+    }
+    
+    .mainHeader .navTop {
+        top: 0;
+        transition: all .4s;
+    }
+
+    .mainHeader nav ul {
+        flex-direction: column;
+        text-align: right;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-left: 50px;
+
+    }
+
+    .mainHeader nav ul li {
+        line-height: 30px;
+        border-bottom: solid 1px #E2E2E2;
+        width: 100%;
+    }
+
+    .mainHeader ul li a {
+        color: black;
+        font-family: NotoSansTC-Light-Alphabetic;
+    }
+
+    .mainFoot {
+        height: 190px;
+    }
+
+    .mainFoot .footWrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mainFoot .footWrap ul {
+        height: auto;
+    }
+
+    .mainFoot .footWrap .firstUl,
+    .mainFoot .footWrap .secondUl {
+        width: 100%;
+        text-align: center;
+        height: 40px;
+    }
+
+    .mainModalPage .modalPage figure figcaption {
+        font-size: 12px;
+
+    }
+    
+    
+}

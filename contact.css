@@ -1,0 +1,178 @@
+.contactSec {
+    width: 60%;
+    margin: 30px auto;
+    position: relative;
+
+}
+
+.contactSec h2 {
+    font-size: 26px;
+    font-family: BPGExtraSquareMtavruli;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.contactSec .twoSides {
+    width: 100%;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80vh;
+    max-height: 80vh;
+    box-shadow: 0 0 30px lightgrey, 0 0 30px lightgrey;
+    border-radius: 10px;
+
+}
+
+.contactSec .twoSides .leftOne {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 65%;
+
+}
+
+.contactSec .twoSides .leftOne .tbilisi {
+    display: inline-block;
+}
+
+.contactSec .twoSides .leftOne span {
+    font-family: NotoSansTC-Light-Alphabetic;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contactSec .twoSides .leftOne span img {
+    padding-right: 30px;
+    width: 60px;
+    height: 20px;
+}
+
+.contactSec .twoSides .leftOne ul {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, minmax(10px, 20px));
+}
+
+.contactSec .twoSides .leftOne ul li img {
+    max-height: 40px;
+    max-width: 30px;
+
+}
+
+.contactSec .twoSides .leftOne ul li {
+    font-size: 16px;
+    font-family: NotoSansTC-Light-Alphabetic;
+
+}
+
+.contactSec .twoSides .leftOne ul li:nth-child(1) {
+    grid-area: 1/1/2/2;
+    padding-right: 30px;
+    grid-area: 2/1/3/2;
+    justify-self: start;
+    align-self: center;
+}
+
+.contactSec .twoSides .leftOne ul li:nth-child(2) {
+    grid-area: 1/2/1/5;
+    align-self: end;
+}
+
+.contactSec .twoSides .leftOne ul li:nth-child(3) {
+    grid-area: 3/2/4/5;
+}
+
+.contactSec .forFacebook {
+    width: 298px;
+    max-width: 298px;
+    height: 105px;
+    max-height: 105px;
+    border: solid 1px black;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+
+
+}
+
+.contactSec .twoSides .rightOne {
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+
+    .contactSec {
+        width: 90%;
+        height: 795px;
+    }
+
+    .contactSec h2 {
+        text-align: center;
+    }
+
+    .contactSec .twoSides {
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    tactSec .two,
+    .contactSec .twoSides .rightOne,
+    .contactSec .twoSides .leftOne {
+        width: 100%;
+    }
+
+    .contactSec .twoSides .rightOne {
+        height: 295px;
+    }
+
+    .contactSec .twoSides .leftOne {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+
+
+    .contactSec .twoSides .leftOne ul {
+        grid-template-rows: 20px 20px 20px;
+        grid-row-gap: 8px;
+
+    }
+
+
+
+    .contactSec .twoSides .leftOne ul li:nth-child(2) {
+        grid-area: 3/2/1/5;
+
+        align-self: center;
+    }
+
+    .tbilisi {
+        display: none !important;
+    }
+
+    .contactSec .forFacebook {
+        bottom: 0;
+        left: calc(50% - 149px)
+    }
+
+    .mainFoot {
+        margin-top: 10px;
+    }
+
+
+
+
+}
+}

@@ -1,0 +1,86 @@
+.mainSec {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+.mainSec h2 {
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-family: BPGExtraSquareMtavruli;
+    margin-bottom: 30px;
+}
+
+.mainSec p {
+    width: 100%;
+    text-align: left;
+    opacity: 0.49;
+    font-family: NotoSansTC-Light-Alphabetic;
+    line-height: 25px;
+    margin-bottom: 30px;
+
+}
+
+.mainSec section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+.mainSec section ul li {
+
+    float: left;
+}
+
+.mainSec section ul li:nth-child(1) {
+    margin-top: 30px;
+}
+
+.mainSec section ul li figure {
+    width: 220px;
+    max-width: 220px;
+    height: 150px;
+    max-height: 150px;
+    margin: 0 30px 30px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.mainSec section ul li:nth-child(even) figure {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .mainSec section ul li:nth-child(even) figure {
+        float: left;
+        margin-left: 0;
+    }
+
+    .mainSec h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-top: 8px;
+    }
+
+    .mainSec p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mainSec section ul li figure {
+        width: 100%;
+        max-width: 100%;
+    }
+}
